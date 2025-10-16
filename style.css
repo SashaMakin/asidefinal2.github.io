@@ -20,11 +20,11 @@ button:active {transform: scale(1.10);transition-duration: 0.5s;}
     align-items: center;
     }
     .header-left {
-      width: 155px;
+    width: 155px;
     display: flex;
     justify-content: space-between;
     }
-    .main {display: flex; flex-direction: column;height: 600px;justify-content: space-between}
+    .main {display: flex; flex-direction: column;height: 100vh;justify-content: space-between}
     .moblist {
     padding-top: 20px;
     display: flex;
@@ -174,20 +174,28 @@ button:active {transform: scale(1.10);transition-duration: 0.5s;}
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  width: 320px;
+  /* width: 320px; */
   height: 322px;
+  min-width: 320px;
+    width: auto;
 }
 .textbox {
-  width: 288px;
+  width: auto;
   height: 90px;
   font-family: 'TTLakes-Thin' ,sans-serif;
   font-size: 14px;
   font-weight: 400;
+  padding-left: 10px;
+  padding-right: 12px;
 }
 .textbox__content1,
 .textbox__content2 {display: none;}
 .readmoreblock {
   display: flex;margin-top: 10px;font-size: 16px;font-family: 'TTLakes-Thin' ,sans-serif;font-weight: 500;}
+}
+.copy {
+  max-width: 100%;
+    height: auto;
 }
 @media screen and (min-width: 768px) and (max-width: 1120px) {
 .header {
@@ -271,9 +279,8 @@ button:active {transform: scale(1.10);transition-duration: 0.5s;}
 .infogroup {
   display: grid;
   align-items: start;
-  justify-content: space-around;
+  justify-content: space-between;
   margin-left: 5px;
-  width: 720px;
   height: 208px;
   grid-template-areas: "first-block foto"
                         "first-block foto";
@@ -281,6 +288,7 @@ button:active {transform: scale(1.10);transition-duration: 0.5s;}
 .first-block {
   display: grid;
   place-content: start;
+  padding-left: 12px;
 }
 .textbox {
   width: 312px;
@@ -292,6 +300,9 @@ button:active {transform: scale(1.10);transition-duration: 0.5s;}
 .textbox__content2 {display: none;}
 .readmoreblock {
   display: flex;font-size: 16px;font-family: 'TTLakes-Thin' ,sans-serif;font-weight: 500;} 
+  .foto {
+    padding-right: 12px;
+  }
 .copy {
   width: 360px;
   height: 208px;
@@ -383,9 +394,8 @@ button:active {transform: scale(1.10);transition-duration: 0.5s;}
 .infogroup {
   display: grid;
   align-items: start;
-  justify-content: space-around;
+  justify-content: space-between;
   margin-left: 5px;
-  width: 1121px;
   height: 307px;
   grid-template-areas: "first-block foto"
                         "first-block foto";
@@ -393,6 +403,10 @@ button:active {transform: scale(1.10);transition-duration: 0.5s;}
 .first-block {
   display: grid;
   place-content: start;
+  padding-left: 12px;
+}
+.foto {
+  padding-right: 12px;
 }
 .textbox {
   width: 490px;
