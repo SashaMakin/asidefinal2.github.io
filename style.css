@@ -70,6 +70,13 @@ button:active {transform: scale(1.10);transition-duration: 0.5s;}
  border-radius: 6px;
  background-color: #ffffff;
 }
+.textbox {
+  font-family: 'TTLakes-Thin' ,sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+.readmoreblock {
+display: flex;font-size: 16px;font-family: 'TTLakes-Thin' ,sans-serif;font-weight: 500;}  
 .aside {
  width: 320px;
  position: relative;
@@ -175,15 +182,10 @@ button:active {transform: scale(1.10);transition-duration: 0.5s;}
 .textbox {
   width: auto;
   height: 90px;
-  font-family: 'TTLakes-Thin' ,sans-serif;
-  font-size: 14px;
-  font-weight: 400;
   padding-left: 10px;
   padding-right: 12px;
 }
-.readmoreblock {
-  display: flex;margin-top: 10px;font-size: 16px;font-family: 'TTLakes-Thin' ,sans-serif;font-weight: 500;}
-}
+.readmoreblock {margin-top: 10px;}
 .foto {
   width: 100%;
     height: auto;
@@ -193,6 +195,7 @@ button:active {transform: scale(1.10);transition-duration: 0.5s;}
  width: 100%;
     height: auto;
     display: block;
+}
 }
 @media screen and (min-width: 768px) and (max-width: 1120px) {
   .slide__option:nth-of-type(1), .textbox__content2, .header-rightside,.repairleft, .checkstatusleft, .aside {display: none;}   
@@ -222,22 +225,16 @@ button:active {transform: scale(1.10);transition-duration: 0.5s;}
 .textbox {
   width: 312px;
   height: 160px;
-  font-family: 'TTLakes-Thin' ,sans-serif;
-  font-size: 14px;
-  font-weight: 400;
 }
-.readmoreblock {
-  display: flex;font-size: 16px;font-family: 'TTLakes-Thin' ,sans-serif;font-weight: 500;} 
   .foto {
   width: 360px;  
 }
 
 }
 @media screen and (min-width: 1121px) {
-.header, .aside, .burger, .logo, .divider2, .repairleft, .checkstatusleft, .call, .chat, .profile, .divider, .repair, .checkstatus.burger2, .search, .mobnav, .info  {display: none;}
+.header, .aside, .burger, .logo, .divider2, .repairleft, .checkstatusleft, .call, .chat, .profile, .divider, .repair, .checkstatus.burger2, .search, .mobnav, .info, .textbox__content1   {display: none;}
 .main {height: 535px;}
 .titleall {justify-content: space-between;}
-
 .header-rightside {
   display: flex;
   justify-content: space-evenly;
@@ -260,7 +257,6 @@ button:active {transform: scale(1.10);transition-duration: 0.5s;}
   height: 82px;
 }
 .slide {width: 100vw;}
-
 .slide__option--active:nth-child(1n) { 
  border: 2px solid #B8FFEC;
  padding-left: 15px;
@@ -301,9 +297,8 @@ button:active {transform: scale(1.10);transition-duration: 0.5s;}
   font-size: 14px;
   font-weight: 400;
 }
-.textbox__content1 {display: none;}
-.readmoreblock {
-  display: flex;font-size: 16px;font-family: 'TTLakes-Thin' ,sans-serif;font-weight: 500;}  
+
+
 .copy {
   width: 531.5px;
   height: 307px;
