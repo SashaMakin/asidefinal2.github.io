@@ -9,6 +9,30 @@
 button {border: none;background-color: #ffffff;cursor: pointer;transform: scale(1);transition-duration: 0.5s;}
 button:hover {transform: scale(0.95);transition-duration: 0.5s;filter: Grayscale(0.3);}
 button:active {transform: scale(1.10);transition-duration: 0.5s;}
+.header {
+  display: flex;
+  height: 80px;
+  background: #ffffff;
+  border-bottom: 1px solid #D9FFF5;
+  justify-content: space-between;
+}
+.header-left {
+  width: 200px;
+  margin-left: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+.header-right {
+  display: flex;
+  justify-content: space-around;
+  margin-right: 10px;
+}
+.main {
+  background-color: #f8f8f8;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
 .aside {
  width: 320px;
  position: relative;
@@ -96,33 +120,9 @@ button:active {transform: scale(1.10);transition-duration: 0.5s;}
     }
     .lang-ru {color: #7E7E82;}  
 @media screen and (min-width: 320px) and (max-width: 767px) {
-.header {
-  display: flex;
-  height: 80px;
-  background: #ffffff;
-  border-bottom: 1px solid #D9FFF5;
-  justify-content: space-between;
-}
-.header-left {
-  width: 200px;
-  display: flex;
-  justify-content: space-around;
-  margin-left: 10px;
-}
-.header-right {
-  width: 110px;
-  display: flex;
-  justify-content: space-around;
-  margin-right: 10px;
-}
-.call, .chat, .profile, .divider, .burger2, .search, .mobnav, .info, .aside {display: none;}
-.main {
-  height: 508px;
-  background-color: #f8f8f8;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-}
+.call, .chat, .profile, .divider, .burger2, .search, .mobnav, .info, .aside, .header-rightside, .slide__option:nth-of-type(1), .textbox__content1, .textbox__content2   {display: none;}
+.header-right {width: 110px;}
+.main {height: 508px;}
 .titleall {
   height: 40px;
   display: flex;
@@ -133,7 +133,6 @@ button:active {transform: scale(1.10);transition-duration: 0.5s;}
 }
 .title {display: flex;align-items: center;}
 .highlight{margin-right: 10px;}
-.header-rightside {display: none;}
 .nav {
   display: block;
   unicode-bidi: isolate;
@@ -169,7 +168,6 @@ button:active {transform: scale(1.10);transition-duration: 0.5s;}
  border-radius: 6px;
  background-color: #ffffff;
 }
-.slide__option:nth-of-type(1) {display: none;}   
 /* .slide__option:nth-child(5n),
 .slide__option:nth-child(7n) {display: none;} */
 .infogroup {
@@ -188,8 +186,6 @@ button:active {transform: scale(1.10);transition-duration: 0.5s;}
   padding-left: 10px;
   padding-right: 12px;
 }
-.textbox__content1,
-.textbox__content2 {display: none;}
 .readmoreblock {
   display: flex;margin-top: 10px;font-size: 16px;font-family: 'TTLakes-Thin' ,sans-serif;font-weight: 500;}
 }
@@ -207,34 +203,11 @@ button:active {transform: scale(1.10);transition-duration: 0.5s;}
   .slide__option:nth-of-type(1), .textbox__content2, .header-rightside,.repairleft, .checkstatusleft, .aside {display: none;}   
   .body {display: flex;}
   .face { display: flex;flex-direction: column;}
-.header {
-  display: flex;
-  height: 80px; 
-  background: #ffffff;
-  border-bottom: 1px solid #D9FFF5;
-  justify-content: space-between;
-}
-.header-left {
-  width: 200px;
-  margin-left: 10px;
-  display: flex;
-  justify-content: space-around;
-}
+
 .burger {order: -2;}
 .divider2 {order: -1;}
-.header-right {
-  width: 320px;
-  display: flex;
-  justify-content: space-around;
-  margin-right: 10px;
-}
-.main {
-  height: 416px;
-  background-color: #f8f8f8;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-}
+.header-right {width: 320px;}
+.main {height: 416px;}
 .titleall {
   height: 40px;
   display: flex;
@@ -307,13 +280,7 @@ button:active {transform: scale(1.10);transition-duration: 0.5s;}
 }
 @media screen and (min-width: 1121px) {
 .header, .aside, .burger, .logo, .divider2, .repairleft, .checkstatusleft, .call, .chat, .profile, .divider, .repair, .checkstatus.burger2, .search, .mobnav, .info  {display: none;}
-.main {
-  height: 535px;
-  background-color: #f8f8f8;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-}
+.main {height: 535px;}
 .titleall {
   height: 40px;
   display: flex;
