@@ -204,16 +204,15 @@ button:active {transform: scale(1.10);transition-duration: 0.5s;}
     display: block;
 }
 @media screen and (min-width: 768px) and (max-width: 1120px) {
+  .slide__option:nth-of-type(1), .textbox__content2, .header-rightside,.repairleft, .checkstatusleft, .aside {display: none;}   
   .body {display: flex;}
   .face { display: flex;flex-direction: column;}
- 
 .header {
   display: flex;
   height: 80px; 
   background: #ffffff;
   border-bottom: 1px solid #D9FFF5;
   justify-content: space-between;
-  position: relative;
 }
 .header-left {
   width: 200px;
@@ -221,7 +220,6 @@ button:active {transform: scale(1.10);transition-duration: 0.5s;}
   display: flex;
   justify-content: space-around;
 }
-.repairleft, .checkstatusleft, .aside {display: none;}
 .burger {order: -2;}
 .divider2 {order: -1;}
 .header-right {
@@ -247,10 +245,7 @@ button:active {transform: scale(1.10);transition-duration: 0.5s;}
 }
 .title {display: flex;align-items: center;}
 .highlight{margin-right: 10px;}
-.header-rightside {display: none;}
 .nav {
-  display: block;
-  unicode-bidi: isolate;
   max-width: 1120vw;
   overflow-x: hidden;
   white-space: nowrap;
@@ -259,9 +254,7 @@ button:active {transform: scale(1.10);transition-duration: 0.5s;}
   margin: 0;
   padding: 0;
   display: flex;
-  list-style: none;
   font-family: 'TTLakes-Thin' ,sans-serif;
-  justify-content: flex-start;
   align-items: center;
   overflow-x: scroll;
   flex-wrap: nowrap;
@@ -283,17 +276,15 @@ button:active {transform: scale(1.10);transition-duration: 0.5s;}
  border-radius: 6px;
  background-color: #ffffff;
 }
-.slide__option:nth-of-type(1) {display: none;}   
+
 /* .slide__option:nth-child(5n),
 .slide__option:nth-child(7n) {display: none;}           */
 .infogroup {
-  display: grid;
+  display: flex;
   align-items: start;
   justify-content: space-between;
   margin-left: 5px;
-  height: 208px;
-  grid-template-areas: "first-block foto"
-                        "first-block foto";
+  height: 208px;            
 }
 .first-block {
   display: grid;
@@ -307,20 +298,12 @@ button:active {transform: scale(1.10);transition-duration: 0.5s;}
   font-size: 14px;
   font-weight: 400;
 }
-.textbox__content2 {display: none;}
 .readmoreblock {
   display: flex;font-size: 16px;font-family: 'TTLakes-Thin' ,sans-serif;font-weight: 500;} 
   .foto {
-    padding-right: 12px;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-.copy {
-  width: 100%;
-    height: 100%;
-    object-fit: cover;
+  width: 360px;  
 }
+
 }
 @media screen and (min-width: 1121px) {
 .header, .aside, .burger, .logo, .divider2, .repairleft, .checkstatusleft, .call, .chat, .profile, .divider, .repair, .checkstatus.burger2, .search, .mobnav, .info  {display: none;}
