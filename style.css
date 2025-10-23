@@ -156,7 +156,6 @@ display: flex;font-size: 16px;font-family: 'TTLakes-Thin' ,sans-serif;font-weigh
     width: 80px;
     height: 50px;
     padding-left: 17px;  
-    
     }
     .info-down__lang {
     display: flex;
@@ -170,7 +169,6 @@ display: flex;font-size: 16px;font-family: 'TTLakes-Thin' ,sans-serif;font-weigh
 .main {height: 508px;}
 .nav {max-width: 780vw;}
 .slide {width: 77vw;}
-
 /* .slide__option:nth-child(5n),
 .slide__option:nth-child(7n) {display: none;} */
 .infogroup {
@@ -199,10 +197,9 @@ display: flex;font-size: 16px;font-family: 'TTLakes-Thin' ,sans-serif;font-weigh
 }
 }
 @media screen and (min-width: 768px) and (max-width: 1120px) {
-  .slide__option:nth-of-type(1), .textbox__content2, .header-rightside,.repairleft, .checkstatusleft {display: none;}   
-  .body {display: flex;}
-  .face { display: flex;flex-direction: column;}
-
+.slide__option:nth-of-type(1), .textbox__content2, .header-rightside,.repairleft, .checkstatusleft {display: none;}   
+.body {display: flex;}
+.face { display: flex;flex-direction: column;}
 .burger {order: -2;}
 .divider2 {order: -1;}
 .header-right {width: 320px;}
@@ -298,8 +295,6 @@ display: flex;font-size: 16px;font-family: 'TTLakes-Thin' ,sans-serif;font-weigh
   font-size: 14px;
   font-weight: 400;
 }
-
-
 .copy {
   width: 531.5px;
   height: 307px;
