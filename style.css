@@ -162,7 +162,8 @@ display: flex;font-size: 16px;font-family: 'TTLakes-Thin' ,sans-serif;font-weigh
     display: flex;
     justify-content: space-between
     }
-    .lang-ru {color: #7E7E82;}  
+    .lang-ru {color: #7E7E82;} 
+@media screen and (max-width: 329px) {.aside, .face {display: none;}}
 @media screen and (min-width: 320px) and (max-width: 767px) {
 .call, .chat, .profile, .divider, .burger2, .search, .mobnav, .info, .aside, .header-rightside, .slide__option:nth-of-type(1), .textbox__content1, .textbox__content2   {display: none;}
 .header-right {width: 110px;}
@@ -198,7 +199,7 @@ display: flex;font-size: 16px;font-family: 'TTLakes-Thin' ,sans-serif;font-weigh
 }
 }
 @media screen and (min-width: 768px) and (max-width: 1120px) {
-  .slide__option:nth-of-type(1), .textbox__content2, .header-rightside,.repairleft, .checkstatusleft, .aside {display: none;}   
+  .slide__option:nth-of-type(1), .textbox__content2, .header-rightside,.repairleft, .checkstatusleft {display: none;}   
   .body {display: flex;}
   .face { display: flex;flex-direction: column;}
 
