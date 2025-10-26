@@ -31,9 +31,10 @@ button:active {transform: scale(1.10);transition-duration: 0.5s;}
   background-color: #f8f8f8;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 .titleall {
+  padding: 25px 0 25px 0;
   height: 40px;
   display: flex;
   align-items: center;
@@ -210,8 +211,7 @@ display: flex;font-size: 16px;font-family: 'TTLakes-Thin' ,sans-serif;font-weigh
   display: flex;
   align-items: start;
   justify-content: space-between;
-  margin-left: 5px;
-  height: 208px;            
+  margin-left: 5px;           
 }
 .first-block {
   display: grid;
@@ -223,7 +223,8 @@ display: flex;font-size: 16px;font-family: 'TTLakes-Thin' ,sans-serif;font-weigh
   height: auto;
 }
   .copy {
-  width: 45vw;  
+  width: 45vw; 
+  border-radius: 5px; 
 }
 }
 @media screen and (min-width: 1121px) {
