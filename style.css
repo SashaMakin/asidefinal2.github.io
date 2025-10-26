@@ -201,7 +201,7 @@ display: flex;font-size: 16px;font-family: 'TTLakes-Thin' ,sans-serif;font-weigh
 .burger {order: -2;}
 .divider2 {order: -1;}
 .header-right {width: 320px;}
-.main {height: 416px;}
+.main {height: 100vh;}
 .nav {max-width: 1120vw;}
 .slide {width: 100vw;}
 /* .slide__option:nth-child(5n),
@@ -219,16 +219,16 @@ display: flex;font-size: 16px;font-family: 'TTLakes-Thin' ,sans-serif;font-weigh
   padding-left: 12px;
 }
 .textbox {
-  width: 312px;
-  height: 160px;
+  width: 45vw;
+  height: auto;
 }
-  .foto {
-  width: 360px;  
+  .copy {
+  width: 45vw;  
 }
 }
 @media screen and (min-width: 1121px) {
 .header, .aside, .burger, .logo, .divider2, .repairleft, .checkstatusleft, .call, .chat, .profile, .divider, .repair, .checkstatus.burger2, .search, .mobnav, .info, .textbox__content1   {display: none;}
-.main {height: 535px;}
+.main {height: 100vh;}
 .titleall {justify-content: space-between;}
 .header-rightside {
   display: flex;
@@ -283,8 +283,8 @@ display: flex;font-size: 16px;font-family: 'TTLakes-Thin' ,sans-serif;font-weigh
   padding-right: 12px;
 }
 .textbox {
-  width: 490px;
-  height: 160px;
+  width: 50vw;
+  height: auto;
   font-family: 'TTLakes-Thin' ,sans-serif;
   font-size: 14px;
   font-weight: 400;
