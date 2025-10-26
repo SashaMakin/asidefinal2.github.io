@@ -82,8 +82,8 @@ display: flex;font-size: 16px;font-family: 'TTLakes-Thin' ,sans-serif;font-weigh
     width: 320px;
     position: relative;
     } 
-.aside-header {
-  box-sizing: border-box;
+    .aside-header {
+    box-sizing: border-box;
     width: 320px;
     padding-left: 17px;
     padding-top: 17px;
