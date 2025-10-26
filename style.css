@@ -77,10 +77,10 @@ button:active {transform: scale(1.10);transition-duration: 0.5s;}
 }
 .readmoreblock {
 display: flex;font-size: 16px;font-family: 'TTLakes-Thin' ,sans-serif;font-weight: 500;}  
-.aside {
- width: 320px;
- position: relative;
- } 
+    .aside {
+    width: 320px;
+    position: relative;
+    } 
 .aside-header {
   box-sizing: border-box;
     width: 320px;
@@ -100,9 +100,7 @@ display: flex;font-size: 16px;font-family: 'TTLakes-Thin' ,sans-serif;font-weigh
     .moblist {
     padding-top: 20px;
     display: flex;
-    justify-content: space-evenly;
     flex-direction: column;
-    list-style: none;
     font-family: 'TTLakes-Thin' ,sans-serif;
     }
     .moblist-item {
@@ -227,7 +225,6 @@ display: flex;font-size: 16px;font-family: 'TTLakes-Thin' ,sans-serif;font-weigh
   .foto {
   width: 360px;  
 }
-
 }
 @media screen and (min-width: 1121px) {
 .header, .aside, .burger, .logo, .divider2, .repairleft, .checkstatusleft, .call, .chat, .profile, .divider, .repair, .checkstatus.burger2, .search, .mobnav, .info, .textbox__content1   {display: none;}
@@ -272,13 +269,10 @@ display: flex;font-size: 16px;font-family: 'TTLakes-Thin' ,sans-serif;font-weigh
 /* .slide__option--desktophide {display: none;}
 .slide__option--desktopview {margin-left: 31px;} */
 .infogroup {
-  display: grid;
+  display: flex;
   align-items: start;
   justify-content: space-between;
   margin-left: 5px;
-  height: 307px;
-  grid-template-areas: "first-block foto"
-                        "first-block foto";
 }
 .first-block {
   display: grid;
@@ -296,8 +290,8 @@ display: flex;font-size: 16px;font-family: 'TTLakes-Thin' ,sans-serif;font-weigh
   font-weight: 400;
 }
 .copy {
-  width: 531.5px;
-  height: 307px;
+  width: 45vw;
+  height: auto;
   border-radius: 10px;
 }
 }
