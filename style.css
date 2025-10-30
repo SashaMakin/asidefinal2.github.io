@@ -76,9 +76,10 @@ padding: 15px 0 0 0;
 width: 132px;
 justify-content: space-between;}  
     .aside {
-    position: relative;
+    position: fixed;
     min-height: 100vh;
     background-color: #ffffff;
+    width: 320px;
     } 
     .aside-header {
     box-sizing: border-box;
@@ -93,7 +94,7 @@ justify-content: space-between;}
     display: flex;
     justify-content: space-between;
     }
-    .aside-main {display: flex; flex-direction: column;height: 100vh;justify-content: space-between}
+    .aside-main {display: flex; flex-direction: column;height: 90vh;justify-content: space-between}
     .moblist {
     padding-top: 20px;
     display: flex;
@@ -114,12 +115,8 @@ justify-content: space-between;}
     width: 175px;
     }
     .moblist-item__active {
-    display: flex;align-items: center;justify-content: space-between;width: 135px;
-    }
-    .info {
-   position: fixed;
-    bottom: 20px;
-    }
+    display: flex;align-items: center;justify-content: space-between;width: 135px;}
+    .info {bottom: 20px;}
     .info-up {
     width: 200px;
     height: 160px;
@@ -158,8 +155,6 @@ justify-content: space-between;}
 .main {height: 508px;}
 .nav {max-width: 100vw;}
 .slide {width: 100vw;}
-/* .slide__option:nth-child(5n),
-.slide__option:nth-child(7n) {display: none;} */
 .infogroup {
   display: flex;
   flex-direction: column;
@@ -188,6 +183,7 @@ justify-content: space-between;}
 @media screen and (min-width: 768px) and (max-width: 1120px) {
 .slide__option:nth-of-type(1), .textbox__content2, .header-rightside,.repairleft, .checkstatusleft, .search {display: none;}   
 .body {display: flex;}
+.face {margin-left: 320px;}
 .burger {order: -2;}
 .divider2 {order: -1;}
 .header-right {width: 320px;}
@@ -209,6 +205,7 @@ border-radius: 10px;
 }
 @media screen and (min-width: 1121px) {
 .header, .burger, .divider2, .repairleft, .checkstatusleft, .call, .chat, .profile, .divider, .repair, .checkstatus.burger2, .search, .textbox__content1   {display: none;}
+.face {margin-left: 320px;}
 .titleall {justify-content: space-between;}
 .header-rightside {
   display: flex;
