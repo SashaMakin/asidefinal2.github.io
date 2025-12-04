@@ -191,6 +191,15 @@ justify-content: space-between;}
 width: 35vw;
 border-radius: 10px; 
 }
+.brands {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 30px;
+    row-gap: 14px;
+    margin-left: 30px;
+    padding-top: 17px;
+}
+.brands-item__off {visibility: hidden;} 
 }
 @media screen and (min-width: 1121px) {
 .header, .burger, .divider2, .repairleft, .checkstatusleft, .call, .chat, .profile, .divider, .repair, .checkstatus.burger2, .search, .textbox__content1   {display: none;}
@@ -238,11 +247,6 @@ border-radius: 10px;
 width: 35vw;
 border-radius: 10px; 
 }
-}
-.container {display: flex; flex-direction: column;}
-.newheader {height: 56px;border-top: 1px solid #D9FFF5;display: flex;align-items: center;}
-.newtitle {font-weight: 400;font-size: 16px;line-height: 24px;letter-spacing: -0.2px;font-family: 'TTLakes-Thin', Arial, sans-serif;margin-left: 30px;}
-.newmain {background-color: #f8f8f8;}
 .brands {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -252,7 +256,11 @@ border-radius: 10px;
     padding-top: 17px;
     
 }
-
+}
+.container {display: flex; flex-direction: column;}
+.newheader {height: 56px;border-top: 1px solid #D9FFF5;display: flex;align-items: center;background-image: linear-gradient(to right, #f8f8f8, #ffffff);}
+.newtitle {font-weight: 400;font-size: 16px;line-height: 24px;letter-spacing: -0.2px;font-family: 'TTLakes-Thin', Arial, sans-serif;margin-left: 30px;}
+.newmain {background-color: #f8f8f8;}
 .brands-item {
     box-sizing: border-box;
     max-width: 100%;
@@ -267,12 +275,6 @@ border-radius: 10px;
     padding-left: 10px;
     padding-right: 10px;
 }
-.brands-item__hide.hidden {
- visibility: hidden;
-}
-.show-all.brands-item__hide {
- visibility: visible;   
-}
 .brands-item__btn {
     width: 40px;
     height: 40px;
@@ -283,6 +285,13 @@ border-radius: 10px;
     align-items: center;
     justify-content: center;
 }
+.brands-item__hide.hidden {
+ visibility: hidden;
+}
+.show-all.brands-item__hide {
+ visibility: visible;   
+}
+
 .hide {
     display: flex;
     margin-left: 30px;
@@ -295,14 +304,6 @@ border-radius: 10px;
 }
 .hide-text {font-weight: 500;font-size: 16px;line-height: 24px;letter-spacing: -0.2px;font-family: 'TTLakes-Thin', Arial, sans-serif;}
 
-@media screen and (max-width: 768px) {
-.brands-item__off {visibility: hidden;}   
-}
-.brands {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 30px;
-    row-gap: 14px;
-    margin-left: 30px;
-    padding-top: 17px;
-}
+
+  
+
