@@ -1,20 +1,21 @@
-const brandsBtn = document.querySelector('.hide');
-const brands = document.querySelector('.brands');
-const brandsitemhide = document.querySelectorAll('.brands-item__hide');
-let isHidden = false;
-brandsBtn = addEventListener('click', function() {
-isHidden = !isHidden;
-if(isHidden) {
-items.forEach(brandsitemhide => {
-    brandsitemhide.classList.add('hidden');});
-    brandsBtn.textContent = 'Показать всё';
-    brands.classList.remove('show-all');
-    } else {
-    items.forEach(item => {
-    brandsitemhide.classList.remove('hidden');});
-    brandsBtn.textContent = 'Скрыть всё';
-    brands.classList.add('show-all');
-    }
-       
+let popup = document.querySelectorAll('.brands-item__hide');
+let showbtn = document.querySelector('.show');
+let hidebtn = document.querySelector('.hide');
+
+showbtn = addEventListener('click', function(evt){
+
+for (let i = 0 ; i < popup.length; i++ ){
+popup[i].classList.remove('brands-item__hide');
+showbtn.classList.add('brands-item__hide');
+hidebtn.classList.remove('brands-item__hide');
+}});
+
+hidebtn = addEventListener('click', function(evt){
+
+for (let i = 0 ; i < popup.length ; i++ ){
+popup[i].classList.add('brands-item__hide');
+hidebtn.classList.add('brands-item__hide');
+showbtn.classList.remove('brands-item__hide');
+
+}});       
       
-})
