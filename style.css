@@ -161,8 +161,8 @@ justify-content: space-between;}
     padding-top: 17px;
     width: 1055px;
 }
-    .brands-item {
-    /* display: inline; */
+    .brands-item:nth-child(-n+6){
+    display: inline;
     box-sizing: border-box;
     max-width: 100%;
     background-color: #ffffff;
@@ -177,6 +177,7 @@ justify-content: space-between;}
     padding-right: 10px;
     border: 1px solid #eaeaea;
 }
+.brands-item__hide {display: none;}
 .brands-item__btn {
     width: 40px;
     height: 40px;
