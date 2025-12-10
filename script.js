@@ -1,6 +1,7 @@
 let popup = document.querySelectorAll('.brandsitem__hide');
-let showBtn = document.querySelector('.show');
-let hideBtn = document.querySelector('.hide');
+let hideBtn = document.querySelector('.activebtnclose');
+let showBtn = document.querySelector('.activebtnopen');
+
 
 
 showBtn = addEventListener('click', function(evt){
