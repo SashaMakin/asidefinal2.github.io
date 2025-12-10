@@ -1,21 +1,24 @@
-let popup = document.querySelectorAll('.brands-item__hide');
-let showbtn = document.querySelector('.show');
-let hidebtn = document.querySelector('.hide');
+let popup = document.querySelectorAll('.brandsitem__hide');
+let showBtn = document.querySelector('.show');
+let hideBtn = document.querySelector('.hide');
 
-showbtn = addEventListener('click', function(evt){
+
+showBtn = addEventListener('click', function(evt){
 
 for (let i = 0 ; i < popup.length; i++ ){
-popup[i].classList.remove('brands-item__hide');
-showbtn.classList.add('brands-item__hide');
-hidebtn.classList.remove('brands-item__hide');
+popup[i].classList.remove('brandsitem__hide');
+hideBtn.classList.remove('brandsitem__hide');
+showBtn.classList.add('brandsitem__hide');
+
 }});
 
-hidebtn = addEventListener('click', function(evt){
+hideBtn = addEventListener('click', function(evt){
 
 for (let i = 0 ; i < popup.length ; i++ ){
-popup[i].classList.add('brands-item__hide');
-hidebtn.classList.add('brands-item__hide');
-showbtn.classList.remove('brands-item__hide');
+popup[i].classList.add('brandsitem__hide');
+showBtn.classList.remove('brandsitem__hide');
+hideBtn.classList.add('brandsitem__hide');
+
 
 }});       
       

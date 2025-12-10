@@ -161,7 +161,7 @@ justify-content: space-between;}
     padding-top: 17px;
     width: 1055px;
 }
-    .brands-item:nth-child(-n+6){
+    .brands-item{
     display: inline;
     box-sizing: border-box;
     max-width: 100%;
@@ -177,7 +177,7 @@ justify-content: space-between;}
     padding-right: 10px;
     border: 1px solid #eaeaea;
 }
-.brands-item__hide {display: none;}
+.brandsitem__hide {display: none;}
 .brands-item__btn {
     width: 40px;
     height: 40px;
@@ -224,7 +224,7 @@ justify-content: space-between;}
 }
 /* ПЛАНШЕТ */
 @media screen and (max-width: 1120px) {   
-  .newmain {width: 800px;}  
+ 
 .slide__option:nth-of-type(1), .textbox__content2, .header-rightside,.repairleft, .checkstatusleft, .search {display: none;}   
 .body {display: flex;}
 /* .face {margin-left: 320px;} */
@@ -244,8 +244,7 @@ justify-content: space-between;}
 width: 35vw;
 border-radius: 10px; 
 }
-
-.brands-item__off {visibility: hidden;} 
+.newmain {width: 800px;} 
 }
 /* ПК */
 @media screen and (min-width: 1121px) {
