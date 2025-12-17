@@ -4,7 +4,7 @@ let showBtn = document.querySelector('.activebtnopen');
 
 
 
-showBtn = addEventListener('click', function(){
+showBtn.addEventListener('click', function(){
 
 for (let i = 0 ; i < popup.length; i++ ){
 popup[i].classList.remove('brandsitem__hide');
@@ -13,7 +13,7 @@ showBtn.classList.add('brandsitem__hide');
 
 }});
 
-hideBtn = addEventListener('click', function(){
+hideBtn.addEventListener('click', function(){
 
 for (let i = 0 ; i < popup.length ; i++ ){
 popup[i].classList.add('brandsitem__hide');
