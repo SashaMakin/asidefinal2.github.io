@@ -211,11 +211,33 @@ justify-content: space-between;}
 {
 .call, .chat, .profile, .divider, .burger2, .search, .mobnav, .info, .aside, .header-rightside, .slide__option:nth-of-type(1), .textbox__content1, .textbox__content2 {display: none;}
 .header-right {width: 101px;}
-.textbox {width: 89vw;
-        padding: 20px 15px 0 15px;}
-} 
+.textbox {width: 89vw;padding: 20px 15px 0 15px;}
+.fade {
+position: absolute;
+z-index: 2;
+right: 0;
+padding-top: 8px;}
+.slider-container {display: inline;}
+.swiper-wrapper {
+  display: flex;
+  padding: 20px 0 0 20px;
+  height: 115px;
+}
+
+.swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background-color: #dddddd;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #b5b6bc;
+}
+
+}
+
 @media (min-width: 768px) and (max-width: 1119px){ 
-.burger2, .search, .mobnav, .info, .aside, .header-rightside, .slide__option:nth-of-type(1),.textbox__content2 {display: none;}
+.burger2, .search, .mobnav, .info, .aside, .header-rightside, .slide__option:nth-of-type(1),.textbox__content2, .slider-container {display: none;}
 .header-right {width: 310px;}
 .main {height: 508px;}
 .nav {max-width: 100vw;}
@@ -230,15 +252,15 @@ justify-content: space-between;}
   padding-right: 12px;
 }
 .readmoreblock {margin-top: 10px;}
-.copy {width: 35vw;
-    border-radius: 10px;}
- .newmain {width: 800px;} 
+.copy {width: 35vw;border-radius: 10px;}
+.newmain {width: 800px;}
+.brands {width: 800px;}
 }
    
 
 @media screen and (min-width: 1120px) {   
  
-.slide__option:nth-of-type(1) .header-rightside,.repairleft, .checkstatusleft, .search.header, .burger, .divider2, .call, .chat, .profile, .divider, .repair, .checkstatus, .burger2, .header, .textbox__content1 {display: none;}   
+.slide__option:nth-of-type(1) .header-rightside,.repairleft, .checkstatusleft, .search.header, .burger, .divider2, .call, .chat, .profile, .divider, .repair, .checkstatus, .burger2, .header, .textbox__content1, .slider-container {display: none;}   
 .body {display: flex;}
 /* .face {margin-left: 320px;} */
 .burger {order: -2;}
@@ -293,7 +315,7 @@ border-radius: 10px;
 width: 35vw;
 border-radius: 10px; 
 }
-
+.brandsitem__hide:nth-child(-n+8) {display: none;}
 }
   
 
