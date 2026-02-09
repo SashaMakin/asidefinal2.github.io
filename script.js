@@ -23,3 +23,22 @@ hideBtn.classList.add('brandsitem__hide');
 
 }});       
       
+let repair = document.querySelectorAll('.hide2');
+let repairopenPopupButton = document.querySelector('.hide2-show');
+let repairclosePopupButton = document.querySelector('.hide2-hide');
+
+repairopenPopupButton.addEventListener('click', function () {
+
+for (let i = 0; i < repair.length; i++)  {
+  repair[i].classList.remove('show');
+  repairopenPopupButton.classList.add('show');
+  repairclosePopupButton.classList.remove('show');
+}});
+
+repairclosePopupButton.addEventListener('click', function () {
+
+  for (let i = 0; i < repair.length; i++)  {
+  repair[i].classList.add('show');
+  repairclosePopupButton.classList.add('show');
+  repairopenPopupButton.classList.remove('show');
+}});
