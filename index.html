@@ -10,10 +10,53 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body class="body">
+    <div class="menuMobile mobilaside">
+        <aside-header class="mobilaside-header">
+            <div class="mobilaside-header_left">
+            <button class="burger3 closure"><img src="hwimg\burger2.png" alt="Бургер"></button>  
+            <button class="logo" type="image" ><img src="hwimg/groupmob.png" alt="лого"></button> 
+            </div>
+            <button class="search2 closure"><img src="hwimg/search2.png" alt="поиск"></button>
+        </aside-header>
+        <div class="mobilaside-main">
+                <nav class="mobilmobnav">
+                    <ul class="mobilmoblist">
+                        <li class="mobilmoblist-item mobilmoblist-item__active">
+                            <img class="highlight2" src="hwimg/highlight2.png" alt="хайлайт">
+                            <p class="text">Ремонт техники</p></li>
+                        <li class="mobilmoblist-item">Услуги и сервисы</li>
+                        <li class="mobilmoblist-item">Копоративным клиентам</li>
+                        <li class="mobilmoblist-item">Продавцам техники</li>
+                        <li class="mobilmoblist-item">Партнёрам</li>
+                        <li class="mobilmoblist-item">Производителям</li>
+                        <li class="mobilmoblist-item">Наши сервисные центры</li>
+                        <li class="mobilmoblist-item">Контакты</li>
+                    </ul>
+                </nav>
+            <div class="mobilinfo">
+                <div class="mobilinfo-up">
+                    <div class="mobilinfo-up__buttons">
+                        <button class="callmob closure" type="image"><img src="hwimg/callmob.png" alt="звонок" ></button>
+                        <button class="chatmob closure" type="image"><img src="hwimg\chatmob.png" alt="чат" ></button>
+                        <button class="profilemob closure" type="image"><img src="hwimg\profilemob.png" alt="профиль" ></button>
+                    </div>
+                        <p class="mobilinfo-mail">mail@cps.com</p>
+                        <p class="mobilinfo-phone">8 800 890 8900</p>                    
+                </div>
+                        <div class="mobilinfo-down">
+                            <div class="mobilinfo-down__lang">
+                                <p class="mobillang-ru">RU</p>
+                                <p class="mobillang-en">EN</p>
+                                <p class="mobillang-ch">CH</p>
+                            </div>
+                        </div>
+            </div>
+        </div>    
+    </div>
     <div class="aside">
         <aside-header class="aside-header">
             <div class="aside-header_left">
-            <button class="burger2"><img src="hwimg\burger2.png" alt="Бургер"></button>  
+            <button class="burger2 "><img src="hwimg\burger2.png" alt="Бургер"></button>  
             <button class="logo" type="image" ><img src="hwimg/groupmob.png" alt="лого"></button> 
             </div>
             <button class="search2"><img src="hwimg/search2.png" alt="поиск"></button>
@@ -56,7 +99,7 @@
     <div class="face">
         <header class="header">
             <div class="header-left">
-                    <button class="burger" type="image"><img src="hwimg\burger.png" alt="меню" ></button>
+                    <button class="burger header_button_open closure" type="image"><img src="hwimg\burger.png" alt="меню" ></button>
                     <button class="logo" type="image" ><img src="hwimg/group.png" alt="лого"></button>
                     <button class="divider2" type="image"> <img src="hwimg\divider.png" alt="divider"></button>          
             </div>
@@ -406,96 +449,56 @@
                 </div>
                     <div class="swiper swiper-initialized swiper-horizontal">
                         <div class="swiper-wrapper mobil" id="swiper-wrapper-f6bd10f6cb5104ab63" aria-live="polite" style="transition-duration: 0ms; transform: translate3d(0px, 0px, 0px); transition-delay: 0ms;">
-                            <button class="brands-item large display swiperlast swiper-slide swiper-slide-active" role="group" aria-label="1 / 5" style="width: 400px; margin-right: 20px">
-                                <div class="swipebox">
-                                    <div class="swipeboxinside">
-                                        <div class="swbow2">
-                                            <div class="repair">Ремонтные услуги Диагностика</div>
-                                            <div class="repair">Цена <br> Бесплатно</div>
-                                            <div class="repair"> Срок <br>30 мин</div>
-                                        </div>
-                                    </div>
-                                    <div class="brands-item__btnrepair">
-                                        <p class="technicTitle repair">Заказать</p>
+                            <button class="brands-item large center swiper-slide swiper-slide-active" role="group" aria-label="1 / 11" >
+                                <p class="technicTitle technicTitlePrice">Ремонтные услуги <br> Диагностика <br> Цена <br> Бесплатно 
+                                   <br> Срок <br> 30 мин </p>
+                                   <div class="brands-item__btnrepair">
+                                        <p class="technicTitle repair ">Заказать</p>
                                             <div class="dropdown_repair">
                                                 <img src="hwimg/dropdownwhite.png" height="9.63px" alt="" class="">
                                             </div>
                                         </div>  
-                                </div> 
-                                      
-                            </button>     
-                            <button class="brands-item large display swiperlast swiper-slide swiper-slide-active" role="group" aria-label="2 / 5" >
-                                <div class="swipebox">
-                                    <div class="swipeboxinside">
-                                        <div class="swbow2">
-                                            <div class="repair">Ремонтные услуги Замена дисплея</div>
-                                            <div class="repair">Цена <br> 1000р</div>
-                                            <div class="repair"> Срок <br>30-120 мин</div>
-                                        </div>
-                                    </div>
-                                    <div class="brands-item__btnrepair">
-                                        <p class="technicTitle repair">Заказать</p>
+                            </button>                       
+                            <button class="brands-item large center swiper-slide swiper-slide-active" role="group" aria-label="1 / 11" >
+                                <p class="technicTitle technicTitlePrice">Ремонтные услуги <br> Замена полифонического динамика <br> Цена <br> 1000р 
+                                   <br> Срок <br> 30-120 мин </p>
+                                   <div class="brands-item__btnrepair">
+                                        <p class="technicTitle repair ">Заказать</p>
                                             <div class="dropdown_repair">
                                                 <img src="hwimg/dropdownwhite.png" height="9.63px" alt="" class="">
                                             </div>
                                         </div>  
-                                </div> 
-                                      
-                            </button> 
-                            <button class="brands-item large display swiperlast swiper-slide swiper-slide-active" role="group" aria-label="3 / 5" >
-                                <div class="swipebox">
-                                    <div class="swipeboxinside">
-                                        <div class="swbow2">
-                                            <div class="repair">Ремонтные услуги Замена полифонического динамика</div>
-                                            <div class="repair">Цена <br> 1000р</div>
-                                            <div class="repair"> Срок <br>30-120 мин</div>
-                                        </div>
-                                    </div>
-                                    <div class="brands-item__btnrepair">
-                                        <p class="technicTitle repair">Заказать</p>
+                            </button>      
+                            <button class="brands-item large center swiper-slide swiper-slide-active" role="group" aria-label="1 / 11" >
+                                <p class="technicTitle technicTitlePrice">Ремонтные услуги <br> Замена дисплея <br> Цена <br> 1000р 
+                                   <br> Срок <br> 30-120 мин </p>
+                                   <div class="brands-item__btnrepair">
+                                        <p class="technicTitle repair ">Заказать</p>
                                             <div class="dropdown_repair">
                                                 <img src="hwimg/dropdownwhite.png" height="9.63px" alt="" class="">
                                             </div>
                                         </div>  
-                                </div> 
-                                      
-                            </button> 
-                            <button class="brands-item large display swiperlast swiper-slide swiper-slide-active" role="group" aria-label="4 / 5" >
-                                <div class="swipebox">
-                                    <div class="swipeboxinside">
-                                        <div class="swbow2">
-                                            <div class="repair">Ремонтные услуги Тестирование с выдачей технического заключения</div>
-                                            <div class="repair">Цена <br> 1000р</div>
-                                            <div class="repair"> Срок <br>30-120 мин</div>
-                                        </div>
-                                    </div>
-                                    <div class="brands-item__btnrepair">
-                                        <p class="technicTitle repair">Заказать</p>
+                            </button>      
+                            <button class="brands-item large center swiper-slide swiper-slide-active" role="group" aria-label="1 / 11" >
+                                <p class="technicTitle technicTitlePrice">Ремонтные услуги <br> Тестирование с выдачей технического заключения <br> Цена <br> 1000р 
+                                   <br> Срок <br> 30-120 мин </p>
+                                   <div class="brands-item__btnrepair">
+                                        <p class="technicTitle repair ">Заказать</p>
                                             <div class="dropdown_repair">
                                                 <img src="hwimg/dropdownwhite.png" height="9.63px" alt="" class="">
                                             </div>
                                         </div>  
-                                </div> 
-                                      
-                            </button> 
-                            <button class="brands-item large display swiperlast swiper-slide swiper-slide-active" role="group" aria-label="5 / 5" >
-                                <div class="swipebox">
-                                    <div class="swipeboxinside">
-                                        <div class="swbow2">
-                                            <div class="repair">Ремонтные услуги Замена программного обеспечени</div>
-                                            <div class="repair">Цена <br> 1000р</div>
-                                            <div class="repair"> Срок <br>30-120 мин</div>
-                                        </div>
-                                    </div>
-                                    <div class="brands-item__btnrepair">
-                                        <p class="technicTitle repair">Заказать</p>
+                            </button>      
+                            <button class="brands-item large center swiper-slide swiper-slide-active" role="group" aria-label="1 / 11" >
+                                <p class="technicTitle technicTitlePrice">Ремонтные услуги <br> Замена программного обеспечения <br> Цена <br> 1000р 
+                                   <br> Срок <br> 30-120 мин </p>
+                                   <div class="brands-item__btnrepair">
+                                        <p class="technicTitle repair ">Заказать</p>
                                             <div class="dropdown_repair">
                                                 <img src="hwimg/dropdownwhite.png" height="9.63px" alt="" class="">
                                             </div>
                                         </div>  
-                                </div> 
-                                      
-                            </button>                                       
+                            </button>                                          
                        </div>  
                             <div class="swiper-pagination swiper-pagination-bullets swiper-pagination-horizontal">
                                 <span class="swiper-pagination-bullet swiper-pagination-bullet-active" aria-current="true"></span>
@@ -521,6 +524,7 @@
                     <p class="marketing">Информация, размещенная на<br>данной странице, не является<br>публичной офертой</p>
                 </div>
             </footer>
+            <div class="overlay overlayShow"></div>
     </div> 
   <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
   <script>
