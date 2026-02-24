@@ -111,9 +111,6 @@ h1 {
 }
 
 .buttonRead {cursor: pointer;}
-
-
-
 .FormMenu {
   margin: 0 auto;
 }
@@ -157,14 +154,12 @@ top: 0;
   margin-bottom: 20px;
   color: red;
 }
-
-
 .input-box input,
 .input-box textarea {
-  height: 100%; /* растягиваем на всю высоту контейнера 50px */
+  height: 100%; 
 width: 376px;
   border: 1px solid #eaeaea;
-  border-radius: 8px; /* скругляем края */
+  border-radius: 8px; 
   padding-left: 14px;
   font-family: "TTLakes-Medium", "Arial", sans-serif;
   font-size: 16px;
@@ -178,14 +173,14 @@ width: 376px;
 
 
 .input-box textarea {
-  resize: none; /* чтобы нельзя было менять высоту */
+  resize: none; 
   font-family: "TTLakes-Medium", "Arial", sans-serif;
   padding: 14px 0 0 14px;
   font-size: 16px;
 }
 
 .message-box {
-  min-height: 110px; /* минимальная высота 110px */
+  min-height: 110px; 
 }
 
 
@@ -501,8 +496,6 @@ display: flex;
  margin-left: auto;
  margin-right: auto;
 }
-
-
 
 .buttonBrands:nth-child(-n+6) {display: inline;}
 
