@@ -1,548 +1,1200 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   
-<script src="script.js" defer></script>
-    <title>Document</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body class="body">
-    <div class="menuMobile mobilaside">
-        <aside-header class="mobilaside-header">
-            <div class="mobilaside-header_left">
-            <button class="burger3 closure"><img src="hwimg\burger2.png" alt="Бургер"></button>  
-            <button class="logo" type="image" ><img src="hwimg/groupmob.png" alt="лого"></button> 
-            </div>
-            <button class="search2 closure"><img src="hwimg/search2.png" alt="поиск"></button>
-        </aside-header>
-        <div class="mobilaside-main">
-                <nav class="mobilmobnav">
-                    <ul class="mobilmoblist">
-                        <li class="mobilmoblist-item mobilmoblist-item__active">
-                            <img class="highlight2" src="hwimg/highlight2.png" alt="хайлайт">
-                            <p class="text">Ремонт техники</p></li>
-                        <li class="mobilmoblist-item">Услуги и сервисы</li>
-                        <li class="mobilmoblist-item">Копоративным клиентам</li>
-                        <li class="mobilmoblist-item">Продавцам техники</li>
-                        <li class="mobilmoblist-item">Партнёрам</li>
-                        <li class="mobilmoblist-item">Производителям</li>
-                        <li class="mobilmoblist-item">Наши сервисные центры</li>
-                        <li class="mobilmoblist-item">Контакты</li>
-                    </ul>
-                </nav>
-            <div class="mobilinfo">
-                <div class="mobilinfo-up">
-                    <div class="mobilinfo-up__buttons">
-                        <button class="callmob closure" type="image"><img src="hwimg/callmob.png" alt="звонок" ></button>
-                        <button class="chatmob closure" type="image"><img src="hwimg\chatmob.png" alt="чат" ></button>
-                        <button class="profilemob closure" type="image"><img src="hwimg\profilemob.png" alt="профиль" ></button>
-                    </div>
-                        <p class="mobilinfo-mail">mail@cps.com</p>
-                        <p class="mobilinfo-phone">8 800 890 8900</p>                    
-                </div>
-                        <div class="mobilinfo-down">
-                            <div class="mobilinfo-down__lang">
-                                <p class="mobillang-ru">RU</p>
-                                <p class="mobillang-en">EN</p>
-                                <p class="mobillang-ch">CH</p>
-                            </div>
-                        </div>
-            </div>
-        </div>    
-    </div>
-    <div class="aside">
-        <aside-header class="aside-header">
-            <div class="aside-header_left">
-            <button class="burger2 "><img src="hwimg\burger2.png" alt="Бургер"></button>  
-            <button class="logo" type="image" ><img src="hwimg/groupmob.png" alt="лого"></button> 
-            </div>
-            <button class="search2"><img src="hwimg/search2.png" alt="поиск"></button>
-        </aside-header>
-        <div class="aside-main">
-                <nav class="mobnav">
-                    <ul class="moblist">
-                        <li class="moblist-item moblist-item__active">
-                            <img class="highlight2" src="hwimg/highlight2.png" alt="хайлайт">
-                            <p class="text">Ремонт техники</p></li>
-                        <li class="moblist-item">Услуги и сервисы</li>
-                        <li class="moblist-item">Копоративным клиентам</li>
-                        <li class="moblist-item">Продавцам техники</li>
-                        <li class="moblist-item">Партнёрам</li>
-                        <li class="moblist-item">Производителям</li>
-                        <li class="moblist-item">Наши сервисные центры</li>
-                        <li class="moblist-item">Контакты</li>
-                    </ul>
-                </nav>
-            <div class="info">
-                <div class="info-up">
-                    <div class="info-up__buttons">
-                        <button class="callmob" type="image"><img src="hwimg/callmob.png" alt="звонок" ></button>
-                        <button class="chatmob" type="image"><img src="hwimg\chatmob.png" alt="чат" ></button>
-                        <button class="profilemob" type="image"><img src="hwimg\profilemob.png" alt="профиль" ></button>
-                    </div>
-                        <p class="info-mail">mail@cps.com</p>
-                        <p class="info-phone">8 800 890 8900</p>                    
-                </div>
-                        <div class="info-down">
-                            <div class="info-down__lang">
-                                <p class="lang-ru">RU</p>
-                                <p class="lang-en">EN</p>
-                                <p class="lang-ch">CH</p>
-                            </div>
-                        </div>
-            </div>
-        </div>    
-    </div>
-    <div class="face">
-        <header class="header">
-            <div class="header-left">
-                    <button class="burger header_button_open closure" type="image"><img src="hwimg\burger.png" alt="меню" ></button>
-                    <button class="logo" type="image" ><img src="hwimg/group.png" alt="лого"></button>
-                    <button class="divider2" type="image"> <img src="hwimg\divider.png" alt="divider"></button>          
-            </div>
-                <div class="header-right">
-                        <button class="search"><img src="hwimg/search.png" alt="поиск"></button>
-                        <button class="call" type="image"><img src="hwimg\call.png" alt="звонок" ></button>
-                        <button class="chat" type="image"><img src="hwimg\chat.png" alt="чат" ></button>
-                        <button class="profile" type="image"><img src="hwimg\profile.png" alt="профиль" ></button>
-                        <button class="divider" type="image"> <img src="hwimg\divider.png" alt="divider"></button>
-                        <button class="repair" type="image"><img src="hwimg\repair.png" alt="услуги" ></button>
-                        <button class="checkstatus" type="image"><img src="hwimg\checkstatus.png" alt="проверка" ></button> 
-                </div>
-        </header>
-                    <div class="titleall">
-                        <div class="title">
-                            <img src="hwimg\highlight.png" alt="highlight" class="highlight">
-                            <h1>Услуги и сервисы</h1>
-                        </div>
-                            <div class="header-rightside">
-                                <button class="repairright" type="image"><a>Оставить заявку</a><img src="hwimg\repair.png" alt="услуги" ></button>
-                                <button class="checkstatusright" type="image"><a>Статус ремонта</a><img src="hwimg\checkstatus.png" alt="проверка" ></button>
-                            </div>
-                    </div>
-                        <nav class="nav">
-                            <ul class="slide">
-                                <li class="slide__option slide__option--active">Ремонтируемые бренды</li>
-                                <li class="slide__option slide__option--active">Ремонтируемые устройства</li> 
-                                <li class="slide__option slide__option--desktophide">Дополнительные услуги</li> 
-                                <li class="slide__option">Цены на услуги</li>
-                                <li class="slide__option">Адреса сервисных центров</li>
-                                <li class="slide__option">Специальные цены</li> 
-                                <li class="slide__option slide__option--desktopview">Отзывы</li> 
-                            </ul>
-                        </nav>
-                        <div class="infogroup">
-                            <div class="first-block">
-                                <article class="textbox">
-                                        <p >Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.</p><br>
-                                        <p class="textbox__content1">Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера</p>
-                                        <p class="textbox__content2">Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера, что подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.</p>
-                                </article>
-                                    <article class="readmoreblock">
-                                        <img src="hwimg\expand.png" alt="expand">
-                                        <p>Читать далее</p>
-                                    </article>
-                            </div>
-                                    <div class="foto">
-                                        <img src="hwimg\picturecopypng.png" alt="copy" class="copy">
-                                    </div>
-                        </div>
-                        <div class="container">
-        <div class="newheader">
-            <h1 class="newtitle">Ремонт техники различных брендов</h1>
-        </div>
-            <div class="newmain">
-                <ul class="brands">
-                    <div class="brands-item brandsitem__hide"><img src="hwimg/lenovo.png" alt="Lenovo"><button class="brands-item__btn"> <img src="hwimg/dropdown.png" alt=""></button></div>  
-                    <div class="brands-item brandsitem__hide"><img src="hwimg/samsung.png" alt="samsung"><button class="brands-item__btn"> <img src="hwimg/dropdown.png" alt=""></button></div>  
-                    <div class="brands-item brandsitem__hide"><img src="hwimg/apple.png" alt="apple"><button class="brands-item__btn"> <img src="hwimg/dropdown.png" alt=""></button></div>  
-                    <div class="brands-item brandsitem__hide"><img src="hwimg/viewsonic.png" alt="viewsonic"><button class="brands-item__btn"> <img src="hwimg/dropdown.png" alt=""></button></div>  
-                    <div class="brands-item brandsitem__hide"><img src="hwimg/bosch.png" alt="bosch"><button class="brands-item__btn"> <img src="hwimg/dropdown.png" alt=""></button></div>  
-                    <div class="brands-item brandsitem__hide"><img src="hwimg/hp.png" alt="hp"><button class="brands-item__btn"> <img src="hwimg/dropdown.png" alt=""></button></div>  
-                    <div class="brands-item brandsitem__hide"><img src="hwimg/acer.png" alt="Acer"><button class="brands-item__btn"> <img src="hwimg/dropdown.png" alt=""></button></div>  
-                    <div class="brands-item brandsitem__hide"><img src="hwimg/sony.png" alt="sony"><button class="brands-item__btn"> <img src="hwimg/dropdown.png" alt=""></button></div>  
-                    <div class="brands-item brandsitem__hide "><img src="hwimg/lenovo2.png" alt="lenovo"><button class="brands-item__btn"> <img src="hwimg/dropdown.png" alt=""></button></div>  
-                    <div class="brands-item brandsitem__hide"><img src="hwimg/samsung2.png" alt="samsung"><button class="brands-item__btn"> <img src="hwimg/dropdown.png" alt=""></button></div>  
-                    <div class="brands-item brandsitem__hide"><img src="hwimg/apple2.png" alt="apple"><button class="brands-item__btn"> <img src="hwimg/dropdown.png" alt=""></button></div>  
-                 </ul>
-                        <div class="activebtnclose brandsitem__hide"><button class="hide"><img src="hwimg/expandup.png" alt="стрелка"><span class="hide-text">Скрыть все</span></button></div>
-                        <div class="activebtnopen "><button class="show"><img src="hwimg/expandnew.png" alt="стрелка"><span class="hide-text">Показать все</span></button></div>
-            </div>
-           <div class="slider-container">
-                <div class="fade">
-                <img src="hwimg/fade copy.png" height="81px" alt="fade" class="fade">
-                </div>
-                <div class="swiper swiper-initialized swiper-horizontal">
-                        <div class="swiper-wrapper" id="swiper-wrapper-f6bd10f6cb5104ab63" aria-live="polite" style="transition-duration: 0ms; transform: translate3d(0px, 0px, 0px); transition-delay: 0ms;">
-                            <button class="brands-item swiper-slide swiper-slide-active" role="group" aria-label="1 / 11" >
-                                <div class="icon">
-                                    <img src="hwimg/lenovo.png" height="32px" alt="lenovo" class="">
-                                </div>
-                                <div class="brands-item__btn"> <img src="hwimg/dropdown.png" alt=""></div>
-                            </button>
-                            <button class="brands-item swiper-slide swiper-slide-next" role="group" aria-label="2 / 11" style="width: 326.667px; margin-right: 20px;">
-                                <div class="icon">
-                                    <img src="hwimg/samsung.png" height="38.52px" alt="samsung" class="">
-                                </div>
-                                    <div class="brands-item__btn"> <img src="hwimg/dropdown.png" alt=""></div>
-                            </button>
-                            <button class="brands-item swiper-slide" role="group" aria-label="3 / 11" style="width: 326.667px; margin-right: 20px;">
-                                <div class="icon">
-                                    <img src="hwimg/apple.png" height="44px" alt="apple" class="">
-                                </div>
-                                    <div class="brands-item__btn"> <img src="hwimg/dropdown.png" alt=""></div>
-                            </button>
-                            <button class="brands-item swiper-slide" role="group" aria-label="4 / 11" style="width: 326.667px; margin-right: 20px;">
-                                <div class="icon">
-                                    <img src="hwimg/bosch.png" height="28.6px" alt="bosch" class="">
-                                </div>
-                                    <div class="brands-item__btn"> <img src="hwimg/dropdown.png" alt=""></div>
-                            </button>
-                            <button class="brands-item swiper-slide" role="group" aria-label="5 / 11" style="width: 326.667px; margin-right: 20px;">
-                                    <div class="icon">
-                                        <img src="hwimg/hp.png" height="52px" alt="hp" class="">
-                                    </div>
-                                        <div class="brands-item__btn"> <img src="hwimg/dropdown.png" alt=""></div>
-                            </button>
-                            <button class="brands-item swiper-slide" role="group" aria-label="6 / 11" style="width: 326.667px; margin-right: 20px;">
-                                    <div class="icon">
-                                        <img src="hwimg/acer.png" height="24px" alt="acer" class="">
-                                     </div>
-                                        <div class="brands-item__btn"> <img src="hwimg/dropdown.png" alt=""></div>
-                            </button>
-                            <button class="brands-item swiper-slide" role="group" aria-label="7 / 11" style="width: 326.667px; margin-right: 20px;">
-                                    <div class="icon">
-                                        <img src="hwimg/viewsonic.png" height="21px" alt="ViewSonic" class="">
-                                    </div>
-                                        <div class="brands-item__btn"> <img src="hwimg/dropdown.png" alt=""></div>
-                            </button>
-                            <button class="brands-item swiper-slide" role="group" aria-label="8 / 11" style="width: 326.667px; margin-right: 20px;">
-                                    <div class="icon">
-                                        <img src="hwimg/sony.png" height="25.6px" alt="sony" class="">
-                                     </div>
-                                        <div class="brands-item__btn"> <img src="hwimg/dropdown.png" alt=""></div>
-                            </button>
-                            <button class="brands-item swiper-slide" role="group" aria-label="9 / 11" style="width: 326.667px; margin-right: 20px;">
-                                <div class="icon">
-                                    <img src="hwimg/lenovo.png" height="32px" alt="lenovo" class="">
-                                 </div>
-                                   <div class="brands-item__btn"> <img src="hwimg/dropdown.png" alt=""></div>
-                            </button>
-                            <button class="brands-item swiper-slide" role="group" aria-label="10 / 11" style="width: 326.667px; margin-right: 20px;">
-                                    <div class="icon">
-                                        <img src="hwimg/samsung.png" height="38.52px" alt="samsung" class="">
-                                     </div>
-                                       <div class="brands-item__btn"> <img src="hwimg/dropdown.png" alt=""></div>
-                            </button>
-                            <button class="brands-item swiper-slide" role="group" aria-label="11 / 11" style="width: 326.667px; margin-right: 20px;">
-                                    <div class="icon">
-                                        <img src="hwimg/apple.png" height="44px" alt="apple" class="">
-                                     </div>
-                                        <div class="brands-item__btn"> <img src="hwimg/dropdown.png" alt=""></div>
-                            </button>
-                        
-                       </div>  
-                       <div class="swiper-pagination swiper-pagination-bullets swiper-pagination-horizontal">
-                        <span class="swiper-pagination-bullet swiper-pagination-bullet-active" aria-current="true"></span>
-                        <span class="swiper-pagination-bullet"></span>
-                        <span class="swiper-pagination-bullet"></span>
-                        <span class="swiper-pagination-bullet"></span>
-                        <span class="swiper-pagination-bullet"></span>
-                        <span class="swiper-pagination-bullet"></span>
-                        <span class="swiper-pagination-bullet"></span>
-                        <span class="swiper-pagination-bullet"></span>
-                        <span class="swiper-pagination-bullet"></span>
-                        <span class="swiper-pagination-bullet"></span>
-                        <span class="swiper-pagination-bullet"></span>
-                       </div> 
-                       <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span> 
-                </div>
-            </div>
-            <h2 class="newheader newtitle">Ремонт различных видов техники</h2>
-            <div class="newmain">
-                <div class="brands">
-                    <button class="brands-item large hide2">
-                            <p class="technicTitle technicTitleDop">Ремонт ноутбуков</p>
-                                <div class="brands-item__btn btndown">
-                                    <img src="hwimg/dropdown.png" height="12px" alt="" class="dropdown">
-                                </div>
-                    </button>
-                      <button class="brands-item large hide2">
-                            <p class="technicTitle technicTitleDop">Ремонт планшетов</p>
-                                <div class="brands-item__btn">
-                                    <img src="hwimg/dropdown.png" height="12px" alt="" class="dropdown">
-                                </div>
-                    </button>
-                      <button class="brands-item large hide2">
-                            <p class="technicTitle technicTitleDop">Ремонт ПК</p>
-                                <div class="brands-item__btn">
-                                    <img src="hwimg/dropdown.png" height="12px" alt="" class="dropdown">
-                                </div>
-                    </button>
-                      <button class="brands-item large hide2">
-                            <p class="technicTitle technicTitleDop">Ремонт мониторов</p>
-                                <div class="brands-item__btn">
-                                    <img src="hwimg/dropdown.png" height="12px" alt="" class="dropdown">
-                                </div>
-                    </button>
-                      <button class="brands-item large hide2">
-                            <p class="technicTitle technicTitleDop">Ремонт ноутбуков</p>
-                                <div class="brands-item__btn">
-                                    <img src="hwimg/dropdown.png" height="12px" alt="" class="dropdown">
-                                </div>
-                    </button>
-                      <button class="brands-item large hide2">
-                            <p class="technicTitle technicTitleDop">Ремонт планшетов</p>
-                                <div class="brands-item__btn">
-                                    <img src="hwimg/dropdown.png" height="12px" alt="" class="dropdown">
-                                </div>
-                    </button>
-                      <button class="brands-item large hide2">      
-                            <p class="technicTitle technicTitleDop">Ремонт ПК</p>
-                                <div class="brands-item__btn">
-                                    <img src="hwimg/dropdown.png" height="12px" alt="" class="dropdown">
-                                </div>                     
-                    </button>
-                </div>
-                    <div class="activebtnclose hide2-hide">
-                        <img src="hwimg/expandup.png" alt="" height="24px" class="expand">
-                        <a href="#"><button class="hide-text">Показать все</button></a>
-                    </div>
-                        <div class="activebtnopen hide2-show hide2">
-                            <img src="hwimg/expandnew.png" alt="" height="24px" class="expand">
-                            <button class="hide-text">Скрыть</button>
-                        </div>
-             </div>
-             <div class="slider-container">
-                <div class="fade">
-                <img src="hwimg/fade copy.png" height="81px" alt="fade" class="fade">
-                </div>
-                <div class="swiper swiper-initialized swiper-horizontal">
-                        <div class="swiper-wrapper mobil" id="swiper-wrapper-f6bd10f6cb5104ab63" aria-live="polite" style="transition-duration: 0ms; transform: translate3d(0px, 0px, 0px); transition-delay: 0ms;">
-                            <button class="brands-item large swiper-slide swiper-slide-active" role="group" aria-label="1 / 11" >
-                                <p class="technicTitle technicTitleDop">Ремонт ноутбуков</p>
-                                <div class="brands-item__btn btndown">
-                                    <img src="hwimg/dropdown.png" height="12px" alt="" class="dropdown">
-                                </div>
-                            </button>
-                            <button class="brands-item large swiper-slide swiper-slide-next" role="group" aria-label="2 / 11" style="width: 326.667px; margin-right: 20px;">
-                                <p class="technicTitle technicTitleDop">Ремонт планшетов</p>
-                                <div class="brands-item__btn">
-                                    <img src="hwimg/dropdown.png" height="12px" alt="" class="dropdown">
-                                </div>
-                            </button>
-                            <button class="brands-item large swiper-slide" role="group" aria-label="3 / 11" style="width: 326.667px; margin-right: 20px;">
-                                <p class="technicTitle technicTitleDop">Ремонт ПК</p>
-                                <div class="brands-item__btn">
-                                    <img src="hwimg/dropdown.png" height="12px" alt="" class="dropdown">
-                                </div>
-                            </button>
-                            <button class="brands-item large swiper-slide" role="group" aria-label="4 / 11" style="width: 326.667px; margin-right: 20px;">
-                               <p class="technicTitle technicTitleDop">Ремонт мониторов</p>
-                                <div class="brands-item__btn">
-                                    <img src="hwimg/dropdown.png" height="12px" alt="" class="dropdown">
-                                </div>
-                            </button>
-                            <button class="brands-item large swiper-slide" role="group" aria-label="5 / 11" style="width: 326.667px; margin-right: 20px;">
-                                    <p class="technicTitle technicTitleDop">Ремонт ноутбуков</p>
-                                <div class="brands-item__btn">
-                                    <img src="hwimg/dropdown.png" height="12px" alt="" class="dropdown">
-                                </div>
-                            </button>
-                            <button class="brands-item large swiper-slide" role="group" aria-label="6 / 11" style="width: 326.667px; margin-right: 20px;">
-                                    <p class="technicTitle technicTitleDop">Ремонт ПК</p>
-                                <div class="brands-item__btn">
-                                    <img src="hwimg/dropdown.png" height="12px" alt="" class="dropdown">
-                                </div>             
-                            </button>                                           
-                       </div>  
-                       <div class="swiper-pagination swiper-pagination-bullets swiper-pagination-horizontal">
-                        <span class="swiper-pagination-bullet swiper-pagination-bullet-active" aria-current="true"></span>
-                        <span class="swiper-pagination-bullet"></span>
-                        <span class="swiper-pagination-bullet"></span>
-                        <span class="swiper-pagination-bullet"></span>
-                        <span class="swiper-pagination-bullet"></span>
-                        <span class="swiper-pagination-bullet"></span>
-                   
-                       </div> 
-                       <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span> 
-                </div>
-            </div>
-             <h2 class="newheader newtitle">Цена за услуги</h2>
-             <div class="newmain">
-                <div class="repair_table">
-                    <div class="tableTitle">
-                        <div class="repair">Ремонтные услуги</div>
-                            <div class="repair">Цена</div>
-                            <div class="repair">Срок</div>  
-                        </div>
-                        <div class="table">                        
-                                <div class="repair">Диагностика</div>
-                                <div class="repair">Бесплатно</div>
-                                <div class="repair">30 мин</div>
-                                <button class="brands-item__btnrepair">
-                                    
-                                        <p class="technicTitle repair">Заказать</p>
-                                    <div class="dropdown_repair">
-                                        <img src="hwimg/dropdownwhite.png" height="9.63px" alt="" class="">
-                                    </div>
-                                    
-                                </button> 
-                                <div class="gridItemBorder"></div>                                                
-                                <div class="repair">Замена дисплея</div>
-                                <div class="repair">1000 р</div>
-                                <div class="repair">30-120 мин</div>
-                                <button class="brands-item__btnrepair">
-                                  
-                                        <p class="technicTitle repair">Заказать</p>
-                                    <div class="dropdown_repair">
-                                        <img src="hwimg/dropdownwhite.png" height="9.63px" alt="" class="">
-                                    </div>
-                                   
-                                </button>  
-                                <div class="gridItemBorder"></div>                                                  
-                                <div class="repair">Замена полифонического динамика</div>
-                                <div class="repair">1000 р</div>
-                                <div class="repair">30-120 мин</div>
-                                <button class="brands-item__btnrepair">
-                                   
-                                        <p class="technicTitle repair">Заказать</p>
-                                    <div class="dropdown_repair">
-                                        <img src="hwimg/dropdownwhite.png" height="9.63px" alt="" class="">
-                                    </div>
-                                     
-                                </button>  
-                                <div class="gridItemBorder"></div>                                                      
-                                <div class="repair">Тестирование с выдачей технического заключения</div>
-                                <div class="repair">1000 р</div>
-                                <div class="repair">30-120 мин</div>
-                                <button class="brands-item__btnrepair">
-                              
-                                        <p class="technicTitle repair">Заказать</p>
-                                    <div class="dropdown_repair">
-                                        <img src="hwimg/dropdownwhite.png" height="9.63px" alt="" class="">
-                                    </div>
-                                   
-                                </button> 
-                                <div class="gridItemBorder"></div>                    
-                                <div class="repair">Замена программного обеспечения</div>
-                                <div class="repair">1000 р</div>
-                                <div class="repair">30-120 мин</div>
-                                <button class="brands-item__btnrepair">
-                                    
-                                        <p class="technicTitle repair">Заказать</p>
-                                    <div class="dropdown_repair">
-                                        <img src="hwimg/dropdownwhite.png" height="9.63px" alt="" class="">
-                                    </div>
-                                   
-                                </button>
-                        </div>
-                    </div>
-                </div>  
-            </div>
-            <div class="slider-container">
-                <div class="fade">
-                <img src="hwimg/fade copy.png" height="81px" alt="fade" class="fade">
-                </div>
-                    <div class="swiper swiper-initialized swiper-horizontal">
-                        <div class="swiper-wrapper mobil" id="swiper-wrapper-f6bd10f6cb5104ab63" aria-live="polite" style="transition-duration: 0ms; transform: translate3d(0px, 0px, 0px); transition-delay: 0ms;">
-                            <button class="brands-item large center swiper-slide swiper-slide-active" role="group" aria-label="1 / 11" >
-                                <p class="technicTitle technicTitlePrice">Ремонтные услуги <br> Диагностика <br> Цена <br> Бесплатно 
-                                   <br> Срок <br> 30 мин </p>
-                                   <div class="brands-item__btnrepair">
-                                        <p class="technicTitle repair ">Заказать</p>
-                                            <div class="dropdown_repair">
-                                                <img src="hwimg/dropdownwhite.png" height="9.63px" alt="" class="">
-                                            </div>
-                                        </div>  
-                            </button>                       
-                            <button class="brands-item large center swiper-slide swiper-slide-active" role="group" aria-label="1 / 11" >
-                                <p class="technicTitle technicTitlePrice">Ремонтные услуги <br> Замена полифонического динамика <br> Цена <br> 1000р 
-                                   <br> Срок <br> 30-120 мин </p>
-                                   <div class="brands-item__btnrepair">
-                                        <p class="technicTitle repair ">Заказать</p>
-                                            <div class="dropdown_repair">
-                                                <img src="hwimg/dropdownwhite.png" height="9.63px" alt="" class="">
-                                            </div>
-                                        </div>  
-                            </button>      
-                            <button class="brands-item large center swiper-slide swiper-slide-active" role="group" aria-label="1 / 11" >
-                                <p class="technicTitle technicTitlePrice">Ремонтные услуги <br> Замена дисплея <br> Цена <br> 1000р 
-                                   <br> Срок <br> 30-120 мин </p>
-                                   <div class="brands-item__btnrepair">
-                                        <p class="technicTitle repair ">Заказать</p>
-                                            <div class="dropdown_repair">
-                                                <img src="hwimg/dropdownwhite.png" height="9.63px" alt="" class="">
-                                            </div>
-                                        </div>  
-                            </button>      
-                            <button class="brands-item large center swiper-slide swiper-slide-active" role="group" aria-label="1 / 11" >
-                                <p class="technicTitle technicTitlePrice">Ремонтные услуги <br> Тестирование с выдачей технического заключения <br> Цена <br> 1000р 
-                                   <br> Срок <br> 30-120 мин </p>
-                                   <div class="brands-item__btnrepair">
-                                        <p class="technicTitle repair ">Заказать</p>
-                                            <div class="dropdown_repair">
-                                                <img src="hwimg/dropdownwhite.png" height="9.63px" alt="" class="">
-                                            </div>
-                                        </div>  
-                            </button>      
-                            <button class="brands-item large center swiper-slide swiper-slide-active" role="group" aria-label="1 / 11" >
-                                <p class="technicTitle technicTitlePrice">Ремонтные услуги <br> Замена программного обеспечения <br> Цена <br> 1000р 
-                                   <br> Срок <br> 30-120 мин </p>
-                                   <div class="brands-item__btnrepair">
-                                        <p class="technicTitle repair ">Заказать</p>
-                                            <div class="dropdown_repair">
-                                                <img src="hwimg/dropdownwhite.png" height="9.63px" alt="" class="">
-                                            </div>
-                                        </div>  
-                            </button>                                          
-                       </div>  
-                            <div class="swiper-pagination swiper-pagination-bullets swiper-pagination-horizontal">
-                                <span class="swiper-pagination-bullet swiper-pagination-bullet-active" aria-current="true"></span>
-                                <span class="swiper-pagination-bullet"></span>
-                                <span class="swiper-pagination-bullet"></span>
-                                <span class="swiper-pagination-bullet"></span>
-                                <span class="swiper-pagination-bullet"></span>                 
-                            </div> 
-                                <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span> 
-                    </div>
-            </div>
-                        <div class="description">
-                                <p>Все цены указаны с учетом НДС. Стоимость ремонта указана на единичную услугу. Для получения коммерческого предложения на постоянное обслуживание, оставьте заявку.</p>
-                        </div>
-                            <div class="commercial">
-                                <a href="#">Получить коммерческое предложение</a>
-                                    <img src="hwimg/dropdown.png" height="12px" alt="" class="dropdown com">
-                            </div>
-            <footer class="footer">
-                 <div class="footerinside">
-                    <p class="team">© 2019 CPS<br>Разработано командой Apesong</p>
-                    <p class="confidential">Политика конфиденциальности</p>
-                    <p class="marketing">Информация, размещенная на<br>данной странице, не является<br>публичной офертой</p>
-                </div>
-            </footer>
-            <div class="overlay overlayShow"></div>
-    </div> 
-  <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
-  <script>
-    
-      const swiper = new Swiper('.swiper', {
-        slidesPerView: 1.5,
-        spaceBetween: 20,
-    
-        pagination: {
-        el: '.swiper-pagination',
-      },
-      });
-      /*loop: true;
+<html lang="ru">
+    <head>
+      <meta charset="utf-8">
+      <meta name="keywords" content="вёрстка, HTML, CSS">
+      <meta name="description" content="Домашняя задача4">
+      <title>Домашняя задача</title>
+       <!--<link rel="stylesheet" href="swiper.min.css">-->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"> 
+      <link rel="stylesheet" href="style.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
 
-      scrollbar: {
-        el: '.swiper-scrollbar',
-      },*/
+    <div class="body">
+
+       <div class="menuMobile menuMobileShow">
+
+      <div class="aside_header mobile">
+          <div class="aside_menuTop">
+              <button class="closure">
+                <img src="img/burger.png" alt="закрытие" class="bt">
+              </button>
+              <button class="buttonLogo">
+                <img src="img/group.png" alt="лого">
+              </button>
+          </div>
+              <button class="closure">
+                <img src="img/search.png" alt="поиск" class="bt">
+              </button>
+        </div>
+
+        <div class="aside_body mobile">
+
+          <nav class="aside_navigateMenu">
+            <ul class="aside_navigateMenu_list">
+              <div class="aside_navigateMenu_active">
+                  <img src="img/highlight2.png" alt="" height="32px" class="asideTitle">
+                  <li class="active">Ремонт техники</li>
+              </div>
+              <li class="aside_navigateMenu_item">Услуги и сервисы</li> 
+              <li class="aside_navigateMenu_item">Корпоративным клиентам</li> 
+              <li class="aside_navigateMenu_item">Продавцам техники</li>
+              <li class="aside_navigateMenu_item">Партнерам</li>
+              <li class="aside_navigateMenu_item">Производителям</li> 
+              <li class="aside_navigateMenu_item">Наши сервисные центры</li> 
+              <li class="aside_navigateMenu_item">Контакты</li> 
+            </ul>
+          </nav>
+        
+
+        <div class="aside_fotter">
+          <div class="aside_button">
+            <button class="closure tablet show_call">
+                <img src="img/call.png" alt="звонок">
+            </button>
+            <button class="closure tablet show_mail">
+                <img src="img/chat.png" alt="чат">
+            </button>
+            <button class="closure tablet">
+                <img src="img/profile.png" alt="профиль">
+            </button>
+          </div>
+
+          <ul class="aside_contact">
+            <li class="aside_contact_item"><a href="mail@cps.com" class="mailStyle">mail@cps.com</a></li>
+            <li class="aside_contact_item"><strong><a href="tel:88008908900">8 800 890 8900</a></strong></li>
+          </ul>
+         
+
+          <ul class="aside_language">
+            <li class="aside_language_item active">RU</li>
+            <li class="aside_language_item">EN</li>
+            <li class="aside_language_item">CH</li>
+          </ul>     
+        </div>
+      </div>
+    </div>
+
+      <div class="menuMailMobile menuMailMobileShow">
+
+      <div class="aside_header mobile">
+          <div class="aside_menuTop">
+              <button class="closure closure_mail">
+                <img src="img/burger.png" alt="закрытие" class="bt">
+              </button>
+          </div>
+        </div>
+
+        <div class="FormMenu mobile">
+          <div class="services_title Menu">
+          <img src="img/highlight.png" alt="" height="40px" class="highlight hiMenu mobile">
+          <h2 class="menuMailTitle">Обратная связь</h2>
+        </div>
+        <form action="" method="get" class="">
+   <div class="input-box mobile">
+              <input type="text" placeholder="Имя" />
+            </div>
+            <div class="input-box mobile">
+              <input type="number" placeholder="Телефон" />
+            </div>
+            <div class="input-box mobile">
+              <input type="text" placeholder="Электронная почта" />
+            </div>
+            <div class="input-box message-box mobile">
+              <textarea placeholder="Сообщение"></textarea>
+            </div>
+</form>
+
+<div class="FormMenuInfo mobile">
+  <p class="FormMenuText">Нажимая “отправить”, вы даете согласие на <font color="#ff3e79">обработку персональных данных</font> и соглашаетесь с нашей<font color="#ff3e79"> политикой конфиденциальности</font></p>
+  <button class="FormMenuBt">
+            <div class="icon FormMenu">
+              <p class="technicTitle repair mobile">Отправить</p>
+            <div class="dropdown_repair">
+              <img src="img/dropdown.png" height="9.63px" alt="" class="dropdown FormMenuMobile">
+            </div>
+          </div>
+          </button>
+</div>
+</div>
+    </div>
+
+     <div class="menuCallMobile menuCallMobileShow">
+
+      <div class="aside_header mobile">
+          <div class="aside_menuTop">
+              <button class="closure closure_call">
+                <img src="img/burger.png" alt="закрытие" class="bt">
+              </button>
+          </div>
+        </div>
+
+        <div class="FormMenu mobile">
+          <div class="services_title Menu">
+          <img src="img/highlight.png" alt="" height="40px" class="highlight hiMenu mobile">
+          <h2 class="menuMailTitle">Заказать звонок</h2>
+        </div>
+        <form action="" method="get" class="">
+            <div class="input-box mobile">
+              <input type="number" placeholder="Телефон" />
+            </div>
+</form>
+
+<div class="FormCallInfo mobile">
+  <p class="FormMenuText">Нажимая “отправить”, вы даете согласие на <font color="#ff3e79">обработку персональных данных</font> и соглашаетесь с нашей<font color="#ff3e79"> политикой конфиденциальности</font></p>
+  <button class="FormMenuBt">
+            <div class="icon FormMenu">
+              <p class="technicTitle repair mobile">Отправить</p>
+            <div class="dropdown_repair">
+              <img src="img/dropdown.png" height="9.63px" alt="" class="dropdown FormMenuMobile">
+            </div>
+          </div>
+          </button>
+</div>
+</div>
+    </div>
+    
+     <div class="menuMail menuMailShow">
+ 
+      <div class="aside_header mobile">
+          <div class="aside_menuTop">
+              <button class="closure menuTop closure_mailPk">
+                <img src="img/burger.png" alt="закрытие" class="bt">
+              </button>
+          </div>
+        </div>
+
+  
+        <div class="FormMenu">
+          <div class="services_title Menu">
+          <img src="img/chatmob.png" alt="" height="40px" class="highlight hiMenu">
+          <h2 class="menuMailTitle">Обратная связь</h2>
+        </div>
+        <form action="" method="get" class="">
+   <div class="input-box">
+              <input type="text" placeholder="Имя" />
+            </div>
+            <div class="input-box">
+              <input type="number" placeholder="Телефон" />
+            </div>
+            <div class="input-box">
+              <input type="text" placeholder="Электронная почта" />
+            </div>
+            <div class="input-box message-box">
+              <textarea placeholder="Сообщение"></textarea>
+            </div>
+</form>
+
+<div class="FormMenuInfo">
+  <p class="FormMenuText">Нажимая “отправить”, вы даете согласие на <font color="#ff3e79">обработку персональных данных</font> и соглашаетесь с нашей<font color="#ff3e79"> политикой конфиденциальности</font></p>
+  <button class="FormMenuBt">
+            <div class="icon FormMenu">
+              <p class="technicTitle repair">Отправить</p>
+            <div class="dropdown_repair">
+              <img src="img/dropdown.png" height="9.63px" alt="" class="dropdown FormMenuPK">
+            </div>
+          </div>
+          </button>
+</div>
+</div>
+
+    </div>
+
+    <div class="menuCall menuCallShow">
+ 
+      <div class="aside_header mobile">
+          <div class="aside_menuTop">
+              <button class="closure menuTop closure_callPk">
+                <img src="img/burger.png" alt="закрытие" class="bt">
+              </button>
+          </div>
+        </div>
+
+  
+        <div class="FormMenu">
+          <div class="services_title Menu">
+          <img src="img/chatmob.png" alt="" height="40px" class="highlight hiMenu">
+          <h2 class="menuMailTitle">Заказать звонок</h2>
+        </div>
+        <form action="" method="get" class="">
+            <div class="input-box">
+              <input type="number" placeholder="Телефон" />
+            </div>
+</form>
+
+<div class="FormMenuInfo">
+  <p class="FormMenuText">Нажимая “отправить”, вы даете согласие на <font color="#ff3e79">обработку персональных данных</font> и соглашаетесь с нашей<font color="#ff3e79"> политикой конфиденциальности</font></p>
+  <button class="FormMenuBt">
+            <div class="icon FormMenu">
+              <p class="technicTitle repair">Отправить</p>
+            <div class="dropdown_repair">
+              <img src="img/dropdown.png" height="9.63px" alt="" class="dropdown FormMenuPK">
+            </div>
+          </div>
+          </button>
+</div>
+</div>
+
+    </div>
+
+    <div class="aside">
+
+      <div class="aside_header">
+          <div class="aside_menuTop">
+              <button class="buttonLogo">
+                <img src="img/group.png" alt="лого">
+              </button>
+          </div>
+              <button class="closure">
+                <img src="img/search.png" alt="поиск" class="bt">
+              </button>
+        </div>
+
+        <div class="aside_body">
+
+          <nav class="aside_navigateMenu">
+            <ul class="aside_navigateMenu_list">
+          
+              <li class="aside_navigateMenu_item active"><a href="#">Ремонт техники</a></li> 
+              <li class="aside_navigateMenu_item"><a href="#">Услуги и сервисы</a></li> 
+              <li class="aside_navigateMenu_item"><a href="#">Корпоративным клиентам</a></li> 
+              <li class="aside_navigateMenu_item"><a href="#">Продавцам техники</a></li>
+              <li class="aside_navigateMenu_item"><a href="#">Партнерам</a></li>
+              <li class="aside_navigateMenu_item"><a href="#">Производителям</a></li> 
+              <li class="aside_navigateMenu_item"><a href="#">Наши сервисные центры</a></li> 
+              <li class="aside_navigateMenu_item"><a href="#">Контакты</a></li> 
+            </ul>
+          </nav>
+        
+
+        <div class="aside_fotter">
+          <div class="aside_button">
+            <button class="closure tablet show_call_Pk">
+                <img src="img/call.png" alt="звонок">
+            </button>
+            <button class="closure tablet show_mail_Pk">
+                <img src="img/chat.png" alt="чат">
+            </button>
+            <button class="closure tablet">
+                <img src="img/profile.png" alt="профиль">
+            </button>
+          </div>
+
+          <ul class="aside_contact">
+            <li class="aside_contact_item"><a href="mail@cps.com" class="mailStyle">mail@cps.com</a></li>
+            <li class="aside_contact_item"><strong><a href="tel:88008908900">8 800 890 8900</a></strong></li>
+          </ul>
+         
+
+          <ul class="aside_language">
+            <li class="aside_language_item active">RU</li>
+            <li class="aside_language_item">EN</li>
+            <li class="aside_language_item">CH</li>
+          </ul>     
+        </div>
+      </div>
+    </div>
+  
+    <div class="section">
+
+    <div class="header">
+        <div class="header_title">
+            <button class="closure header_button_open">
+                <img src="img/burger2.png" alt="меню" class="bt">
+            </button>
+            <img src="img/divider.png" alt="" class="divider">
+            <button class="buttonLogo">
+                <img src="img/group.png" alt="лого">
+            </button>
+        </div>
+        <div class="header_button">
+            <button class="closure tablet show_call">
+                <img src="img/call.png" alt="звонок">
+            </button>
+            <button class="closure tablet show_mail">
+                <img src="img/chat.png" alt="чат">
+            </button>
+            <button class="closure tablet">
+                <img src="img/profile.png" alt="профиль">
+            </button>
+            <img src="img/divider.png" alt="" class="divider">
+            <button class="closure">
+                <img src="img/repair.png" alt="услуги">
+            </button>
+            <button class="closure">
+                <img src="img/checkstatus.png" alt="поиск" class="bt">
+            </button>
+
+        </div>
+    </div>
+
+      <div class="services">
+        <div class="services_title">
+          <img src="img/highlight.png" alt="" height="40px" class="highlight">
+          <h1 class="title">Услуги и сервисы</h1>
+        </div>
+        <div class="services_buttons tablet">
+          <div class="services_buttons_repair">
+          <p>Оставить заявку</p>
+          <button class="closure">
+            <img src="img/repair.png" alt="услуги" >
+          </button>
+          </div>
+          <div class="services_buttons_checkstatus">
+          <p>Статус ремонта</p>
+          <button class="closure">
+            <img src="img/checkstatus.png" alt="поиск" class="bt">
+          </button>
+          </div>
+        </div>
+      </div>
+      
+      <nav class="navigateMenu">
+        <ul class="navigateMenu_list">
+          <li class="navigateMenu_item active">Ремонтируемые бренды</li>
+          <li class="navigateMenu_item headerNavigateMenu"><a href="#" class="headerNavigateMenu_list">Дополнительные услуги</a></li> 
+          <li class="navigateMenu_item headerNavigateMenu"><a href="#" class="headerNavigateMenu_list">Цены на услуги</a></li>
+          <li class="navigateMenu_item headerNavigateMenu"><a href="#" class="headerNavigateMenu_list">Адреса сервисных центров</a></li>
+          <li class="navigateMenu_item headerNavigateMenu"><a href="#" class="headerNavigateMenu_list">Специальные цены</a></li>  
+          <li class="navigateMenu_item headerNavigateMenu"><a href="#" class="headerNavigateMenu_list">Отзывы</a></li> 
+        </ul>
+      </nav>
+
+    <div class="about">
+      <div class="about_infoBlock">
+        <div class="about_infoBlock_display">
+          <p>Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.</p>
+          <p>Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера</p>
+          <p><br>Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера, что подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.</p>
+        </div>
+
+        <div class="about_infoBlock_hidden">
+          <img src="img/expand.png" alt="" height="24px" class="expand">
+          <button class="buttonRead">Читать далее</button>
+        </div>
+      </div>
+
+      <div class="about_pictureBlock">
+        <img src="img/PictureCopy.png" alt="" class="picture">
+      </div>
+    </div>
+
+
+    <div class="brands">
+        <h2 class="titleRepair">Ремонт техники различных брендов</h2>
+      <div class="brands_button">
+          <button class="buttonBrands modal">
+            <div class="icon">
+              <img src="img/brands/lenovo.png" height="32px" alt="lenovo" class="">
+            <div>
+            <div class="iconBorder">
+              <img src="img/brands/dropdown.png" height="12px" alt="" class="dropdown">
+            </div>
+          </div>
+          </div>
+          </button>
+          <button class="buttonBrands modal">
+            <div class="icon">
+              <img src="img/brands/samsung.png" height="38.52px" alt="samsung" class="">
+            <div>
+            <div class="iconBorder">
+              <img src="img/brands/dropdown.png" height="12px" alt="" class="dropdown">
+            </div>
+          </div>
+          </div>
+          </button>
+          <button class="buttonBrands modal">
+            <div class="icon">
+              <img src="img/brands/apple.png" height="44px" alt="apple" class="">
+            <div>
+            <div class="iconBorder">
+              <img src="img/brands/dropdown.png" height="12px" alt="" class="dropdown">
+            </div>
+          </div>
+          </div>
+          </button>
+          <button class="buttonBrands modal">
+            <div class="icon">
+              <img src="img/brands/bosch.png" height="28.6px" alt="bosch" class="">
+            <div>
+            <div class="iconBorder">
+              <img src="img/brands/dropdown.png" height="12px" alt="" class="dropdown">
+            </div>
+          </div>
+          </div>
+          </button>
+          <button class="buttonBrands modal">
+            <div class="icon">
+              <img src="img/brands/hp.png" height="52px" alt="hp" class="">
+            <div>
+            <div class="iconBorder">
+              <img src="img/brands/dropdown.png" height="12px" alt="" class="dropdown">
+            </div>
+          </div>
+          </div>
+          </button>
+          <button class="buttonBrands modal">
+            <div class="icon">
+              <img src="img/brands/acer.png" height="24px" alt="acer" class="">
+            <div>
+            <div class="iconBorder">
+              <img src="img/brands/dropdown.png" height="12px" alt="" class="dropdown">
+            </div>
+          </div>
+          </div>
+          </button>
+          <button class="buttonBrands modal">
+            <div class="icon">
+              <img src="img/brands/viewsonic.png" height="21px" alt="ViewSonic" class="">
+            <div>
+            <div class="iconBorder">
+              <img src="img/brands/dropdown.png" height="12px" alt="" class="dropdown">
+            </div>
+          </div>
+          </div>
+          </button>
+          <button class="buttonBrands modal">
+             <div class="icon">
+              <img src="img/brands/sony.png" height="25.6px" alt="sony" class="">
+            <div>
+            <div class="iconBorder">
+              <img src="img/brands/dropdown.png" height="12px" alt="" class="dropdown">
+            </div>
+          </div>
+          </div>
+          </button>
+          <button class="buttonBrands modal">
+          <div class="icon">
+              <img src="img/brands/lenovo.png" height="32px" alt="lenovo" class="">
+            <div>
+            <div class="iconBorder">
+              <img src="img/brands/dropdown.png" height="12px" alt="" class="dropdown">
+            </div>
+          </div>
+          </div>
+          </button>
+          <button class="buttonBrands modal">
+            <div class="icon">
+              <img src="img/brands/samsung.png" height="38.52px" alt="samsung" class="">
+            <div>
+            <div class="iconBorder">
+              <img src="img/brands/dropdown.png" height="12px" alt="" class="dropdown">
+            </div>
+          </div>
+          </div>
+          </button>
+          <button class="buttonBrands modal">
+            <div class="icon">
+              <img src="img/brands/apple.png" height="44px" alt="apple" class="">
+            <div>
+            <div class="iconBorder">
+              <img src="img/brands/dropdown.png" height="12px" alt="" class="dropdown">
+            </div>
+          </div>
+          </div>
+          </button>
+          
+      </div>
+
+          <div class="about_infoBlock_hidden button-open">
+            <button class="buttonRead">
+           <img src="img/brands/open.svg" alt="" height="24px" class="expand">
+          <p>Показать все</p>
+          </button>
+        </div>
+
+
+          <div class="about_infoBlock_hidden button-close modal">
+            <button class="buttonRead">
+            <img src="img/brands/expand.svg" alt="" height="24px" class="expand">
+          <p>Скрыть</p>
+          </button>
+        </div>
+    </div>
+
+     <div class="slider-container">
+      <div class="fade"><img src="img/fade.png" height="81px" alt="fade" class="fade"></div>
+        <div class="swiper">
+          <div class="swiper-wrapper">
+          <button class="buttonBrands swiper-slide">
+            <div class="icon">
+              <img src="img/brands/lenovo.png" height="32px" alt="lenovo" class="">
+            <div>
+            <div class="iconBorder">
+              <img src="img/brands/dropdown.png" height="12px" alt="" class="dropdown">
+            </div>
+          </div>
+          </div>
+          </button>
+          <button class="buttonBrands swiper-slide">
+            <div class="icon">
+              <img src="img/brands/samsung.png" height="38.52px" alt="samsung" class="">
+            <div>
+            <div class="iconBorder">
+              <img src="img/brands/dropdown.png" height="12px" alt="" class="dropdown">
+            </div>
+          </div>
+          </div>
+          </button>
+          <button class="buttonBrands swiper-slide">
+            <div class="icon">
+              <img src="img/brands/apple.png" height="44px" alt="apple" class="">
+            <div>
+            <div class="iconBorder">
+              <img src="img/brands/dropdown.png" height="12px" alt="" class="dropdown">
+            </div>
+          </div>
+          </div>
+          </button>
+          <button class="buttonBrands swiper-slide">
+            <div class="icon">
+              <img src="img/brands/bosch.png" height="28.6px" alt="bosch" class="">
+            <div>
+            <div class="iconBorder">
+              <img src="img/brands/dropdown.png" height="12px" alt="" class="dropdown">
+            </div>
+          </div>
+          </div>
+          </button>
+          <button class="buttonBrands swiper-slide">
+            <div class="icon">
+              <img src="img/brands/hp.png" height="52px" alt="hp" class="">
+            <div>
+            <div class="iconBorder">
+              <img src="img/brands/dropdown.png" height="12px" alt="" class="dropdown">
+            </div>
+          </div>
+          </div>
+          </button>
+          <button class="buttonBrands swiper-slide">
+            <div class="icon">
+              <img src="img/brands/acer.png" height="24px" alt="acer" class="">
+            <div>
+            <div class="iconBorder">
+              <img src="img/brands/dropdown.png" height="12px" alt="" class="dropdown">
+            </div>
+          </div>
+          </div>
+          </button>
+          <button class="buttonBrands swiper-slide">
+            <div class="icon">
+              <img src="img/brands/viewsonic.png" height="21px" alt="ViewSonic" class="">
+            <div>
+            <div class="iconBorder">
+              <img src="img/brands/dropdown.png" height="12px" alt="" class="dropdown">
+            </div>
+          </div>
+          </div>
+          </button>
+          <button class="buttonBrands swiper-slide">
+             <div class="icon">
+              <img src="img/brands/sony.png" height="25.6px" alt="sony" class="">
+            <div>
+            <div class="iconBorder">
+              <img src="img/brands/dropdown.png" height="12px" alt="" class="dropdown">
+            </div>
+          </div>
+          </div>
+          </button>
+          <button class="buttonBrands swiper-slide">
+          <div class="icon">
+              <img src="img/brands/lenovo.png" height="32px" alt="lenovo" class="">
+            <div>
+            <div class="iconBorder">
+              <img src="img/brands/dropdown.png" height="12px" alt="" class="dropdown">
+            </div>
+          </div>
+          </div>
+          </button>
+          <button class="buttonBrands swiper-slide">
+            <div class="icon">
+              <img src="img/brands/samsung.png" height="38.52px" alt="samsung" class="">
+            <div>
+            <div class="iconBorder">
+              <img src="img/brands/dropdown.png" height="12px" alt="" class="dropdown">
+            </div>
+          </div>
+          </div>
+          </button>
+          <button class="buttonBrands swiper-slide">
+            <div class="icon">
+              <img src="img/brands/apple.png" height="44px" alt="apple" class="">
+            <div>
+            <div class="iconBorder">
+              <img src="img/brands/dropdown.png" height="12px" alt="" class="dropdown">
+            </div>
+          </div>
+          </div>
+          </button>
+    
+          </div>
+          <div class="swiper-pagination">
+          </div>
+      </div>
+      
+      </div>
+
+      <div class="brands">
+        <h2 class="titleRepair">Ремонт различных видов техники</h2>
+      <div class="brands_button">
+          <button class="buttonBrands show technic swiper-slide">
+            <div class="icon">
+              <p class="technicTitle">Ремонт ноутбуков</p>
+              <div class="buttonTableRepair">
+            <div class="iconBorder technic">
+              <img src="img/brands/dropdown.png" height="12px" alt="" class="dropdown">
+            </div>
+            </div>
+          </div>
+          </button>
+
+                    <button class="buttonBrands show technic swiper-slide">
+            <div class="icon">
+              <p class="technicTitle">Ремонт планшетов</p>
+            <div class="buttonTableRepair">
+            <div class="iconBorder technic">
+              <img src="img/brands/dropdown.png" height="12px" alt="" class="dropdown">
+            </div>
+            </div>
+          </div>
+          </button>
+
+                    <button class="buttonBrands show technic swiper-slide">
+            <div class="icon">
+              <p class="technicTitle">Ремонт ПК</p>
+           <div class="buttonTableRepair">
+            <div class="iconBorder technic">
+              <img src="img/brands/dropdown.png" height="12px" alt="" class="dropdown">
+            </div>
+            </div>
+          </div>
+          </button>
+
+                    <button class="buttonBrands show technic swiper-slide">
+            <div class="icon">
+              <p class="technicTitle">Ремонт мониторов</p>
+            <div class="buttonTableRepair">
+            <div class="iconBorder technic">
+              <img src="img/brands/dropdown.png" height="12px" alt="" class="dropdown">
+            </div>
+            </div>
+          </div>
+          </button>
+
+                    <button class="buttonBrands show technic">
+            <div class="icon">
+              <p class="technicTitle">Ремонт ноутбуков</p>
+            <div class="buttonTableRepair">
+            <div class="iconBorder technic">
+              <img src="img/brands/dropdown.png" height="12px" alt="" class="dropdown">
+            </div>
+            </div>
+          </div>
+          </button>
+
+                    <button class="buttonBrands show technic">
+            <div class="icon">
+              <p class="technicTitle">Ремонт планшетов</p>
+           <div class="buttonTableRepair">
+            <div class="iconBorder technic">
+              <img src="img/brands/dropdown.png" height="12px" alt="" class="dropdown">
+            </div>
+            </div>
+          </div>
+          </button>
+
+            <button class="buttonBrands show technic">
+            <div class="icon">
+              <p class="technicTitle">Ремонт ПК</p>
+           <div class="buttonTableRepair">
+            <div class="iconBorder technic">
+              <img src="img/brands/dropdown.png" height="12px" alt="" class="dropdown">
+            </div>
+            </div>
+          </div>
+          </button>
+      </div>
+
+          <div class="about_infoBlock_hidden button-show">
+            <button class="buttonRead">
+           <img src="img/brands/open.svg" alt="" height="24px" class="expand">
+          <p>Показать все</buttpon>
+          </button>
+          </a>
+        </div>
+
+          <div class="about_infoBlock_hidden button-lost show">
+            <button class="buttonRead">
+            <img src="img/brands/expand.svg" alt="" height="24px" class="expand">
+          <p>Скрыть</p>
+          </button>
+        </div>
+    </div>
+
+      <div class="slider-container">
+      <div class="fade"><img src="img/fade.png" height="81px" alt="fade" class="fade"></div>
+        <div class="swiper">
+          <div class="swiper-wrapper mobile">
+          <button class="buttonBrands swiper-slide mobile">
+            <div class="icon">
+              <p class="technicTitle">Ремонт ноутбуков</p>
+           <div class="buttonTable">
+            <div class="iconBorder technic">
+              <img src="img/brands/dropdown.png" height="12px" alt="" class="dropdown">
+            </div>
+          </div>
+          </div>
+          </button>
+
+                    <button class="buttonBrands swiper-slide mobile">
+            <div class="icon">
+              <p class="technicTitle">Ремонт планшетов</p>
+            <div class="buttonTable">
+            <div class="iconBorder technic">
+              <img src="img/brands/dropdown.png" height="12px" alt="" class="dropdown">
+            </div>
+          </div>
+          </div>
+          </button>
+
+                    <button class="buttonBrands swiper-slide mobile">
+            <div class="icon">
+              <p class="technicTitle">Ремонт ПК</p>
+            <div class="buttonTable">
+            <div class="iconBorder technic">
+              <img src="img/brands/dropdown.png" height="12px" alt="" class="dropdown">
+            </div>
+          </div>
+          </div>
+          </button>
+
+                    <button class="buttonBrands swiper-slide mobile">
+            <div class="icon">
+              <p class="technicTitle">Ремонт мониторов</p>
+            <div class="buttonTable">
+            <div class="iconBorder technic">
+              <img src="img/brands/dropdown.png" height="12px" alt="" class="dropdown">
+            </div>
+          </div>
+          </div>
+          </button>
+
+                    <button class="buttonBrands swiper-slide mobile">
+            <div class="icon">
+              <p class="technicTitle">Ремонт ноутбуков</p>
+            <div class="buttonTable">
+            <div class="iconBorder technic">
+              <img src="img/brands/dropdown.png" height="12px" alt="" class="dropdown">
+            </div>
+          </div>
+          </div>
+          </button>
+
+                    <button class="buttonBrands swiper-slide mobile">
+            <div class="icon">
+              <p class="technicTitle">Ремонт планшетов</p>
+            <div class="buttonTable">
+            <div class="iconBorder technic">
+              <img src="img/brands/dropdown.png" height="12px" alt="" class="dropdown">
+            </div>
+          </div>
+          </div>
+          </button>
+
+            <button class="buttonBrands swiper-slide mobile">
+            <div class="icon">
+              <p class="technicTitle">Ремонт ПК</p>
+            <div class="buttonTable">
+            <div class="iconBorder technic">
+              <img src="img/brands/dropdown.png" height="12px" alt="" class="dropdown">
+            </div>
+          </div>
+          </div>
+          </button>
+    
+          </div>
+          <div class="swiper-pagination mobile">
+          </div>
+      </div>
+      
+      </div>
+    
+    <div class="brands">
+        <h2 class="titleRepair">Цены на услуги</h2>
+      <div class="repair_table">
+      <div class="landTitle">
+        <div class="repair">Ремонтные услуги</div>
+        <div class="repair">Цена</div>
+        <div class="repair">Срок</div>
+      </div>
+        <div class="land">
+        <div class="repair">Диагностика</div>
+        <div class="repair">Бесплатно</div>
+        <div class="repair">30 мин</div>
+         <button class="buttonBrands repair">
+            <div class="icon repair">
+              <p class="technicTitle repair">Заказать</p>
+            <div class="dropdown_repair">
+              <img src="img/dropdownwhite.png" height="9.63px" alt="" class="">
+            </div>
+          </div>
+          </button>
+          <div class="gridItemBorder"></div>
+        <div class="repair">Замена дисплея</div>
+        <div class="repair">1000 ₽</div>
+        <div class="repair">30-120 мин</div>
+        <button class="buttonBrands repair">
+            <div class="icon repair">
+              <p class="technicTitle repair">Заказать</p>
+            <div class="dropdown_repair">
+              <img src="img/dropdownwhite.png" height="9.63px" alt="" class="">
+            </div>
+          </div>
+          </button>
+          <div class="gridItemBorder"></div>
+        <div class="repair">Замена полифонического динамика</div>
+        <div class="repair">1000 ₽</div>
+        <div class="repair">30-120 мин</div>
+        <button class="buttonBrands repair">
+            <div class="icon repair">
+              <p class="technicTitle repair">Заказать</p>
+            <div class="dropdown_repair">
+              <img src="img/dropdownwhite.png" height="9.63px" alt="" class="">
+            </div>
+          </div>
+          </button>
+          <div class="gridItemBorder"></div>
+        <div class="repair">Тестирование с выдачей технического заключения</div>
+        <div class="repair">1000 ₽</div>
+        <div class="repair">30-120 мин</div>
+        <button class="buttonBrands repair">
+            <div class="icon repair">
+              <p class="technicTitle repair">Заказать</p>
+            <div class="dropdown_repair">
+              <img src="img/dropdownwhite.png" height="9.63px" alt="" class="">
+            </div>
+          </div>
+          </button>
+          <div class="gridItemBorder"></div>
+        <div class="repair">Замена программного обеспечения</div>
+        <div class="repair">1000 ₽</div>
+        <div class="repair">30-120 мин</div>
+        <button class="buttonBrands repair">
+            <div class="icon repair">
+              <p class="technicTitle repair">Заказать</p>
+            <div class="dropdown_repair">
+              <img src="img/dropdownwhite.png" height="9.63px" alt="" class="">
+            </div>
+          </div>
+          </button>
+      </div>
+    </div>
+</div>
+
+<div class="slider-container">
+      <div class="fade"><img src="img/fade.png" height="81px" alt="fade" class="fade"></div>
+        <div class="swiper swiperTable">
+          <div class="fade"><img src="img/fade.png" height="81px" alt="fade" class="fade"></div>
+  <div class="second-slider">
+    <div class="swiper-wrapper mobile">
+      <button class="buttonBrands swiper-slide mobile tablemobile">
+           <div class="icon">
+              <div class="technicTitle">
+                <div class="servicesTable">
+                  <div><div class="colorTable">Ремонтные услуги</div>
+                    Тестирование с выдачей технического заключения</div>
+                    <div><div class="colorTable">Цена</div>
+                    1000 ₽</div>
+                    <div><div class="colorTable">Срок</div>
+                    30-120 мин</div>
+                </div>
+                
+              </div>
+            </div>
+  
+            <div class="buttonBrands repair table">
+              <div class="icon repair">
+                <p class="technicTitle repair">Заказать</p>
+              <div class="dropdown_repair">
+                <img src="img/dropdown.png" height="9.63px" alt="" class="">
+              </div>
+              </div>
+              </div>
+      </button> 
+            <button class="buttonBrands swiper-slide mobile tablemobile">
+           <div class="icon">
+              <div class="technicTitle">
+                <div class="servicesTable">
+                  <div><div class="colorTable">Ремонтные услуги</div>
+                    Диагностика</div>
+                    <div><div class="colorTable">Цена</div>
+                    Бесплатно</div>
+                    <div><div class="colorTable">Срок</div>
+                    30-120 мин</div>
+                </div>
+                
+              </div>
+            </div>
+  
+            <div class="buttonBrands repair table">
+              <div class="icon repair">
+                <p class="technicTitle repair">Заказать</p>
+              <div class="dropdown_repair">
+                <img src="img/dropdown.png" height="9.63px" alt="" class="">
+              </div>
+              </div>
+              </div>
+      </button> 
+            <button class="buttonBrands swiper-slide mobile tablemobile">
+           <div class="icon">
+              <div class="technicTitle">
+                <div class="servicesTable">
+                  <div><div class="colorTable">Ремонтные услуги</div>
+                    Замена полифонического динамика</div>
+                    <div><div class="colorTable">Цена</div>
+                    1000 ₽</div>
+                    <div><div class="colorTable">Срок</div>
+                    30-120 мин</div>
+                </div>
+                
+              </div>
+            </div>
+  
+            <div class="buttonBrands repair table">
+              <div class="icon repair">
+                <p class="technicTitle repair">Заказать</p>
+              <div class="dropdown_repair">
+                <img src="img/dropdown.png" height="9.63px" alt="" class="">
+              </div>
+              </div>
+              </div>
+      </button> 
+            <button class="buttonBrands swiper-slide mobile tablemobile">
+           <div class="icon">
+              <div class="technicTitle">
+                <div class="servicesTable">
+                  <div><div class="colorTable">Ремонтные услуги</div>
+                    Замена программного обеспечения</div>
+                    <div><div class="colorTable">Цена</div>
+                    1000 ₽</div>
+                    <div><div class="colorTable">Срок</div>
+                    30-120 мин</div>
+                </div>
+                
+              </div>
+            </div>
+  
+            <div class="buttonBrands repair table">
+              <div class="icon repair">
+                <p class="technicTitle repair">Заказать</p>
+              <div class="dropdown_repair">
+                <img src="img/dropdown.png" height="9.63px" alt="" class="">
+              </div>
+              </div>
+              </div>
+      </button> 
+            <button class="buttonBrands swiper-slide mobile tablemobile">
+           <div class="icon">
+              <div class="technicTitle">
+                <div class="servicesTable">
+                  <div><div class="colorTable">Ремонтные услуги</div>
+                    Тестирование с выдачей технического заключения</div>
+                    <div><div class="colorTable">Цена</div>
+                    1000 ₽</div>
+                    <div><div class="colorTable">Срок</div>
+                    30-120 мин</div>
+                </div>
+                
+              </div>
+            </div>
+  
+            <div class="buttonBrands repair table">
+              <div class="icon repair">
+                <p class="technicTitle repair">Заказать</p>
+              <div class="dropdown_repair">
+                <img src="img/dropdown.png" height="9.63px" alt="" class="">
+              </div>
+              </div>
+              </div>
+      </button> 
+
+    </div>
+    <div class="swiper-pagination mobile"></div>
+  </div>
+</div>
+      </div>
+      
      
-  </script>
-</body>
+
+ <!--<div class="slider-container">
+      <div class="fade"><img src="img/fade.png" height="81px" alt="fade" class="fade"></div>
+        <div class="swiper swiperTable">
+          <div class="swiper-wrapper mobileTable">
+
+       
+
+          <button class="buttonBrands swiper-slide mobileTable">
+            <div class="icon">
+              <div class="technicTitle">
+                <div class="servicesTable">
+                  <div><div class="colorTable">Ремонтные услуги</div>
+                    Тестирование с выдачей технического заключения</div>
+                    <div><div class="colorTable">Цена</div>
+                    1000 ₽</div>
+                    <div><div class="colorTable">Срок</div>
+                    30-120 мин</div>
+                </div>
+
+
+                <div class="buttonTechnic">
+                  <button class="buttonBrands repair table">
+                    <div class="icon repair">
+                      <p class="technicTitle repair">Заказать</p>
+                    <div class="dropdown_repair">
+                      <img src="img/dropdown.svg" height="9.63px" alt="" class="">
+                    </div>
+                  </div>
+                    </button>
+                </div>
+          </button>
+                <button class="buttonBrands swiper-slide mobileTable">
+            <div class="icon">
+              <div class="technicTitle">
+                <div class="servicesTable">
+                  <div><div class="colorTable">Ремонтные услуги</div>
+                    Диагностика</div>
+                    <div><div class="colorTable">Цена</div>
+                    Бесплатно</div>
+                    <div><div class="colorTable">Срок</div>
+                    30-120 мин</div>
+                </div>
+                <div class="buttonTechnic">
+             
+           <button class="buttonBrands repair table">
+            <div class="icon repair">
+              <p class="technicTitle repair">Заказать</p>
+            <div class="dropdown_repair">
+              <img src="img/dropdown.svg" height="9.63px" alt="" class="">
+            </div>
+          </div>
+          </button>
+          </button>
+                <button class="buttonBrands swiper-slide mobileTable">
+            <div class="icon">
+              <div class="technicTitle">
+                <div class="servicesTable">
+                  <div><div class="colorTable">Ремонтные услуги</div>
+                   Замена дисплея</div>
+                    <div><div class="colorTable">Цена</div>
+                    1000 ₽</div>
+                    <div><div class="colorTable">Срок</div>
+                    30-120 мин</div>
+                </div>
+                <div class="buttonTechnic">
+             
+           <button class="buttonBrands repair table">
+            <div class="icon repair">
+              <p class="technicTitle repair">Заказать</p>
+            <div class="dropdown_repair">
+              <img src="img/dropdown.svg" height="9.63px" alt="" class="">
+            </div>
+          </div>
+          </button>
+          </button>
+                <button class="buttonBrands swiper-slide mobileTable">
+            <div class="icon">
+              <div class="technicTitle">
+                <div class="servicesTable">
+                  <div><div class="colorTable">Ремонтные услуги</div>
+                    Замена полифонического динамика</div>
+                    <div><div class="colorTable">Цена</div>
+                    1000 ₽</div>
+                    <div><div class="colorTable">Срок</div>
+                    30-120 мин</div>
+                </div>
+                <div class="buttonTechnic">
+             
+           <button class="buttonBrands repair table">
+            <div class="icon repair">
+              <p class="technicTitle repair">Заказать</p>
+            <div class="dropdown_repair">
+              <img src="img/dropdown.svg" height="9.63px" alt="" class="">
+            </div>
+          </div>
+          </button>
+          </button>
+
+                <button class="buttonBrands swiper-slide mobileTable">
+            <div class="icon">
+              <div class="technicTitle">
+                <div class="servicesTable">
+                  <div><div class="colorTable">Ремонтные услуги</div>
+                    Замена программного обеспечения</div>
+                    <div><div class="colorTable">Цена</div>
+                    1000 ₽</div>
+                    <div><div class="colorTable">Срок</div>
+                    30-120 мин</div>
+                </div>
+                <div class="buttonTechnic">
+             
+           <button class="buttonBrands repair table">
+            <div class="icon repair">
+              <p class="technicTitle repair">Заказать</p>
+            <div class="dropdown_repair">
+              <img src="img/dropdown.svg" height="9.63px" alt="" class="">
+            </div>
+          </div>
+          </button>
+          </button>
+          
+          </div>
+          <div class="swiper-pagination mobile">
+          </div>
+      </div>
+      
+      </div>-->
+
+
+    <div class="description">
+      <p>Все цены указаны с учетом НДС. Стоимость ремонта указана на единичную услугу. Для получения коммерческого предложения на постоянное обслуживание, оставьте заявку.</p>
+    </div>
+ 
+    <div class="commercial">
+      <a href="#">Получить коммерческое предложение</a>
+      <img src="img/brands/dropdown.png" height="12px" alt="" class="dropdown com">
+    </div>
+
+    <div class="footer">
+      <div class="footerInfo">
+      <p class="development">© 2019 CPS<br>Разработано командой Apesong</p>
+      <p class="politics">Политика конфиденциальности</p>
+      <p  class="information">Информация, размещенная на<br>данной странице, не является<br>публичной офертой</p>
+    </div>
+    </div>
+    </div>
+    <div class="overlay overlayShow"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+
+     <script>
+      const swiper = new Swiper('.swiper', {
+  slidesPerView: 1.31,
+  spaceBetween: 15,
+  pagination: {
+    el: '.swiper-pagination',
+  },
+});
+      </script>
+<script>
+     const secondSwiper = new Swiper('.second-slider', {
+  slidesPerView: 1.2,
+  spaceBetween: 15,
+  pagination: {
+    el: '.swiper-pagination',
+  },
+});
+     </script>
+  </div>
 </html>
